@@ -6,9 +6,8 @@ L.tileLayer('https://api.maptiler.com/maps/streets-v2/{z}/{x}/{y}.png?key=W30t0Z
     attribution: 'By Susheel'
 }).addTo(map);
 
-var marker = L.marker([17.44804287936813, 78.34840219419986]).addTo(map);
-
-marker.on('click', bakul_details_printer);
+var Bakul = L.polygon(bakul_nivas_coordinates).addTo(map);
+Bakul.on('click', Bakul_det_printer);
 
 // ------------------------------------------------------------------------------------------------------
 
