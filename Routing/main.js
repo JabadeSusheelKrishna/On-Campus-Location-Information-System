@@ -96,3 +96,49 @@ function findRoute() {
   L.polyline(routeCoords, { color: "green", weight: 6 }).addTo(map);
   // L.polyline(routeCoords).addTo(map);
 }
+
+// Fetch My Location Button Function
+function fetchMyLocation() {
+  if (!navigator.geolocation) {
+    alert("Geolocation is not supported by your browser.");
+    return;
+  }
+
+  navigator.geolocation.getCurrentPosition(
+    position => {
+      const { latitude, longitude } = position.coords;
+      const nearestNode = findNearestNode(latitude, longitude);
+      if (nearestNode) {
+        document.getElementById("startNode").value = nearestNode;
+      } else {
+        alert("Could not find the nearest node.");
+      }
+    },
+    error => {
+      alert("Unable to retrieve your location.");
+    }
+  );
+}
+
+// Function to find the nearest node based on GPS coordinates
+function findNearestNode(lat, lon) {
+  if (!graphData || !graphData.nodes) {
+    alert("Node data is not loaded.");
+    return null;
+  }
+
+  let nearestNode = null;
+  let minDistance = Infinity;
+
+  for (const nodeId in graphData.nodes) {
+    const [nodeLon, nodeLat] = graphData.nodes[nodeId].coordinates;
+    const distance = turf.distance([lon, lat], [nodeLon, nodeLat], { units: "kilometers" });
+
+    if (distance < minDistance) {
+      minDistance = distance;
+      nearestNode = nodeId;
+    }
+  }
+
+  return nearestNode;
+}
