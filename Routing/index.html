@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Campus Map Routing</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+  <style>
+    #map { height: 600px; width: 100%; }
+  </style>
+</head>
+<body>
+
+<h2>Campus Map Routing</h2>
+<div>
+  <label for="startNode">From Node ID:</label>
+  <input type="text" id="startNode" placeholder="e.g., Node_0">
+  <label for="endNode">To Node ID:</label>
+  <input type="text" id="endNode" placeholder="e.g., Node_2">
+  <button onclick="findRoute()">Find Route</button>
+</div>
+
+<div id="map"></div>
+
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="https://unpkg.com/@turf/turf/turf.min.js"></script>
+<script src="main.js"></script>
+
+</body>
+</html>
