@@ -9,3 +9,10 @@
 > - uncomment line 20 and comment out line 19 in `index.html`
 > - need to create high resolution tiles
 >  - also have structured layers of tiles
+
+### Routing :
+> - cd to the Routing directory
+> - run the `parser.py` file to convert the GeoJSON data to graph nodes
+> - If everything is alright, you should be able to see `graphs.json`
+> - Now open the `index.html` with the live server.
+> - Enter the input from and to as Node_<Number> and click on the route
