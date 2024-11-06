@@ -16,3 +16,10 @@
 > - If everything is alright, you should be able to see `graphs.json`
 > - Now open the `index.html` with the live server.
 > - Enter the input from and to as Node_<Number> and click on the route
+
+### Team :
+> - Jabade Susheel Krishna
+> - Jagankrishna Nallasingu
+
+### Professor :
+> - K S Rajan
