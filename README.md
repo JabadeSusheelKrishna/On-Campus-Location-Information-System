@@ -22,4 +22,4 @@
 > - Jagankrishna Nallasingu
 
 ### Professor :
-> - K S Rajan
+> - Dr. K S Rajan
