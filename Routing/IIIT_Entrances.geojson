@@ -1,3 +1,4 @@
+
 {
     "type": "FeatureCollection",
     "features": [
@@ -6,13 +7,27 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    78.34904917247871,
-                    17.44694721605464
+                    78.34904869937577,
+                    17.446935693599244
                 ]
             },
-            "id": "b95b91a4-79c0-41a2-a0ad-059e765446f1",
+            "id": "046b37e3-0c1a-42ae-b9d3-6ed44a50ede8",
             "properties": {
                 "Place Name": "Nilgiri-3"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    78.34927197672164,
+                    17.446587684338667
+                ]
+            },
+            "id": "1d748385-d888-46fe-9ad9-7bd45383e67a",
+            "properties": {
+                "Place Name": "trail"
             }
         }
     ]
