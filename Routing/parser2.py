@@ -5,12 +5,17 @@ def calculate_distance(coord1, coord2):
     # Simple Euclidean distance formula
     return math.sqrt((coord1[0] - coord2[0]) ** 2 + (coord1[1] - coord2[1]) ** 2)
 
-def parse_geojson_to_graph(geojson_data):
+def parse_geojson_to_graph(geojson_data, entrance_geojson):
     nodes = {}
     edges = {}
-
     node_count = 0
     coord_to_id = {}  # Map coordinates to node IDs to ensure unique identifiers
+    
+    # Create a lookup for entrance coordinates to names
+    entrance_lookup = {
+        tuple(feature["geometry"]["coordinates"]): feature["properties"].get("Place Name")
+        for feature in entrance_geojson["features"]
+    }
 
     for feature in geojson_data["features"]:
         coords = feature["geometry"]["coordinates"]
@@ -22,12 +27,18 @@ def parse_geojson_to_graph(geojson_data):
 
             # Assign a unique id to each node if it’s new
             if start not in coord_to_id:
-                coord_to_id[start] = f"Node_{node_count}"
-                nodes[coord_to_id[start]] = {"id": coord_to_id[start], "coordinates": start}
+                # Use entrance name if available; otherwise, use a generic node name
+                entrance_name = entrance_lookup.get(start)
+                node_id = entrance_name if entrance_name else f"Node_{node_count}"
+                coord_to_id[start] = node_id
+                nodes[node_id] = {"id": node_id, "coordinates": start}
                 node_count += 1
+
             if end not in coord_to_id:
-                coord_to_id[end] = f"Node_{node_count}"
-                nodes[coord_to_id[end]] = {"id": coord_to_id[end], "coordinates": end}
+                entrance_name = entrance_lookup.get(end)
+                node_id = entrance_name if entrance_name else f"Node_{node_count}"
+                coord_to_id[end] = node_id
+                nodes[node_id] = {"id": node_id, "coordinates": end}
                 node_count += 1
 
             # Build the edges
@@ -44,12 +55,16 @@ def parse_geojson_to_graph(geojson_data):
 
     return {"nodes": nodes, "edges": edges}
 
-# Load GeoJSON
+# Load GeoJSON files
 with open("Roads_IIIT.geojson", "r") as f:
     geojson_data = json.load(f)
 
-graph_data = parse_geojson_to_graph(geojson_data)
+with open("IIIT_Entrances.geojson", "r") as f:
+    entrance_geojson = json.load(f)
 
-# Save to graphs.json
+# Parse graph data with entrance data incorporated
+graph_data = parse_geojson_to_graph(geojson_data, entrance_geojson)
+
+# Save updated graph to graphs.json
 with open("graphs.json", "w") as f:
     json.dump(graph_data, f, indent=2)

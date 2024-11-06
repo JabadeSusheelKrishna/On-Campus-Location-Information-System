@@ -1,0 +1,19 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    78.34904917247871,
+                    17.44694721605464
+                ]
+            },
+            "id": "b95b91a4-79c0-41a2-a0ad-059e765446f1",
+            "properties": {
+                "Place Name": "Nilgiri-3"
+            }
+        }
+    ]
+}
