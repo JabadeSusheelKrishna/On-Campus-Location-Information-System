@@ -1,0 +1,173 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            78.34849028296907,
+                            17.44853998136186
+                        ],
+                        [
+                            78.3481392358882,
+                            17.448157918533923
+                        ],
+                        [
+                            78.34854467054453,
+                            17.447815948039846
+                        ],
+                        [
+                            78.34888830113795,
+                            17.448195653169677
+                        ],
+                        [
+                            78.34881660842325,
+                            17.448256971936217
+                        ],
+                        [
+                            78.34854467054453,
+                            17.447959811567912
+                        ],
+                        [
+                            78.34829992645297,
+                            17.448157918533923
+                        ],
+                        [
+                            78.34857680865758,
+                            17.448459795402286
+                        ],
+                        [
+                            78.34849028296907,
+                            17.44853998136186
+                        ]
+                    ]
+                ]
+            },
+            "id": "7fe6d866-6ba4-483d-831e-4bd857cf420d",
+            "properties": {
+                "image": "../Images/Bakul/001.jpeg",
+                "details": "Bakul Nivas provides accommodation to students, faculty, and staff members of IIIT Hyderabad. The complex offers a comfortable living environment with modern amenities, allowing residents to focus on their academic and research pursuits.",
+                "name": "Bakul Nivas"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            78.34858288587009,
+                            17.445672553205867
+                        ],
+                        [
+                            78.34883617705987,
+                            17.44595493486277
+                        ],
+                        [
+                            78.34905118004656,
+                            17.445780729314976
+                        ],
+                        [
+                            78.34879788885678,
+                            17.445499752274813
+                        ],
+                        [
+                            78.34858288587009,
+                            17.445672553205867
+                        ]
+                    ]
+                ]
+            },
+            "id": "2b6c1458-16e4-4770-99b5-5291bee0e974",
+            "properties": {
+                "image": "https://images.deccanchronicle.com/dc-Cover-m6ps09fnu5bv1o3kh49kigq3t6-20171227005439.Medi.jpeg",
+                "name": "T-Hub",
+                "details": "The Technology Hub (T-Hub) is a partnership between the International Institute of Information Technology (IIIT) Hyderabad and other organizations to foster innovation and entrepreneurship in India."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            78.34985932791545,
+                            17.44503475620094
+                        ],
+                        [
+                            78.34972645477148,
+                            17.444885106978987
+                        ],
+                        [
+                            78.34988700982188,
+                            17.44474602112126
+                        ],
+                        [
+                            78.35006786493454,
+                            17.444930882048098
+                        ],
+                        [
+                            78.3499183826458,
+                            17.445043559092085
+                        ],
+                        [
+                            78.34988885528162,
+                            17.445022432151873
+                        ],
+                        [
+                            78.34985932791545,
+                            17.44503475620094
+                        ]
+                    ]
+                ]
+            },
+            "id": "e8b6c91a-957f-4d6e-8b98-c0d4dd88af2e",
+            "properties": {
+                "image": "https://images.shiksha.com/mediadata/images/1600682498phpShX7UY.jpeg",
+                "details": "Its an Admin Block",
+                "name": "Admin Block"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            78.34921460954143,
+                            17.44656718822219
+                        ],
+                        [
+                            78.34948978016035,
+                            17.446877765460485
+                        ],
+                        [
+                            78.35041218308163,
+                            17.446123505535553
+                        ],
+                        [
+                            78.35015251503125,
+                            17.445812927013336
+                        ],
+                        [
+                            78.34921460954143,
+                            17.44656718822219
+                        ]
+                    ]
+                ]
+            },
+            "id": "fd136b42-7880-4aba-863c-5e77e55c215e",
+            "properties": {
+                "image": "SOmeee",
+                "details": "asdfjnwjg",
+                "name": "Some"
+            }
+        }
+    ]
+}

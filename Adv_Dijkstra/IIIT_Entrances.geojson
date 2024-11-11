@@ -1,0 +1,453 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    78.34904869937577,
+                    17.446935693599244
+                ]
+            },
+            "id": "046b37e3-0c1a-42ae-b9d3-6ed44a50ede8",
+            "properties": {
+                "Place Name": "Nilgiri-1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    78.34830834112046,
+                    17.44798521856754
+                ]
+            },
+            "id": "d1279875-f10c-456b-9cd2-77d840fe85e0",
+            "properties": {
+                "Place Name": "Bakul_Nivas"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    78.34891040424452,
+                    17.447415273916988
+                ]
+            },
+            "id": "fd72cc4c-d2e8-4533-9575-9c70705db05a",
+            "properties": {
+                "Place Name": "Nilgiri-2"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    78.34838244119572,
+                    17.447512473905732
+                ]
+            },
+            "id": "0f808330-f994-4bef-a9a1-fa0bf9910269",
+            "properties": {
+                "Place Name": "Nilgiri-3"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    78.34801657206566,
+                    17.44825472665697
+                ]
+            },
+            "id": "bb1b7a4a-53e5-4817-955c-49c29a429886",
+            "properties": {
+                "Place Name": "Warehouse"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    78.34803046583028,
+                    17.448135436239895
+                ]
+            },
+            "id": "4025187c-d5d7-4e38-a0dd-ff719ffa02ec",
+            "properties": {
+                "Place Name": "Amphitheatre"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    78.34972550505478,
+                    17.4464079255483
+                ]
+            },
+            "id": "73034331-dbac-4b8a-b9e0-4bdfa5b5dd55",
+            "properties": {
+                "Place Name": "Vindhya-1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    78.35013768673213,
+                    17.44608539615912
+                ]
+            },
+            "id": "4b8be57a-71d3-4cd3-9537-2cea1ad9534a",
+            "properties": {
+                "Place Name": "Vindhya-3"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    78.35053597464622,
+                    17.445740775085184
+                ]
+            },
+            "id": "b2fe10cc-0cbf-4383-b916-62d93de0738c",
+            "properties": {
+                "Place Name": "Vindhya-5"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    78.34847078364771,
+                    17.447125203021116
+                ]
+            },
+            "id": "edfde8b6-a188-4fd7-a9cd-a7eec32c151a",
+            "properties": {
+                "Place Name": "PEC"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    78.34793534760468,
+                    17.447270454943435
+                ]
+            },
+            "id": "9907dd69-39f2-4192-ae48-958de76b17b7",
+            "properties": {
+                "Place Name": "Parijat"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    78.34766662921061,
+                    17.446970048699498
+                ]
+            },
+            "id": "851b6e7e-40c1-409d-a634-a49121a56d20",
+            "properties": {
+                "Place Name": "Kadamb"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    78.34738749193656,
+                    17.44667228164279
+                ]
+            },
+            "id": "5d22c840-375e-4adb-8005-505c31fd941e",
+            "properties": {
+                "Place Name": "KadambNivas_hostel"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    78.34744923573294,
+                    17.44576122897334
+                ]
+            },
+            "id": "c07cbee2-adfe-42a8-89ab-3edcdb2f49c7",
+            "properties": {
+                "Place Name": "Aphid_Nivas"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    78.34731727993073,
+                    17.445795121352305
+                ]
+            },
+            "id": "268e9525-c54b-4942-912c-cdd5ed0e8715",
+            "properties": {
+                "Place Name": "Tantra"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    78.34607638788475,
+                    17.445117272596818
+                ]
+            },
+            "id": "f6cceb63-af1b-46c5-9578-d4ec3bcfe77f",
+            "properties": {
+                "Place Name": "OBH"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    78.34646210484499,
+                    17.445100326344814
+                ]
+            },
+            "id": "637670db-933e-47bc-a2d5-cec7e8867cb5",
+            "properties": {
+                "Place Name": "OBH_E1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    78.34601548520612,
+                    17.44548282707416
+                ]
+            },
+            "id": "f27acac7-a27e-43b0-830a-38b001946c42",
+            "properties": {
+                "Place Name": "OBH_E2"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    78.34686873793646,
+                    17.44661431321009
+                ]
+            },
+            "id": "cfde5282-7368-4763-a8ab-61d33615f216",
+            "properties": {
+                "Place Name": "FG_Entry"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    78.34778788516093,
+                    17.447895967005067
+                ]
+            },
+            "id": "3e1d1cd4-61c1-4488-bddf-796e438ecbf6",
+            "properties": {
+                "Place Name": "BBC"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    78.35090628086465,
+                    17.444833456986373
+                ]
+            },
+            "id": "fd8e2f11-dae2-4b13-8cf7-5621f85aae35",
+            "properties": {
+                "Place Name": "Power_House"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    78.34861827563344,
+                    17.443210149602194
+                ]
+            },
+            "id": "16fef114-3354-4e14-b4c0-b76b0a6aa149",
+            "properties": {
+                "Place Name": "Faculty_H1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    78.34855367139949,
+                    17.444019085900706
+                ]
+            },
+            "id": "3918966d-e6e1-4bdc-b4b8-9f818b5c678a",
+            "properties": {
+                "Place Name": "Faculty_H2"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    78.34926359179622,
+                    17.44559602175778
+                ]
+            },
+            "id": "cd9205ee-92dc-4658-95aa-328ba4dbc324",
+            "properties": {
+                "Place Name": "H105-E2"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    78.34916086730937,
+                    17.445682996179002
+                ]
+            },
+            "id": "8dc81201-3ba8-4b30-a518-708de37ed9f4",
+            "properties": {
+                "Place Name": "H105_E2"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    78.34915443160833,
+                    17.445869389264033
+                ]
+            },
+            "id": "743c52c3-22b9-4354-9cbb-03f936d40da4",
+            "properties": {
+                "Place Name": "Vindhya_2"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    78.34956723287291,
+                    17.445533860567537
+                ]
+            },
+            "id": "4ca32a6b-cddc-4a94-8995-4d92d4dbf970",
+            "properties": {
+                "Place Name": "Vindhya_4"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    78.34997177811164,
+                    17.44518730445752
+                ]
+            },
+            "id": "8fbe15eb-1618-4271-b3a0-55564027a826",
+            "properties": {
+                "Place Name": "Vindhya_6"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    78.34988426424394,
+                    17.445031353993713
+                ]
+            },
+            "id": "806fa226-e2b8-4c69-92e2-593424b673e3",
+            "properties": {
+                "Place Name": "Admin_Block"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    78.3497092365086,
+                    17.44525188996458
+                ]
+            },
+            "id": "1f6af1f0-8fa3-43c6-a0ac-fd400adf420f",
+            "properties": {
+                "Place Name": "KRB"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    78.34899756714259,
+                    17.445828432742942
+                ]
+            },
+            "id": "dc980202-d81d-4c91-971b-b50cc27503e2",
+            "properties": {
+                "Place Name": "T-Hub"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    78.34952271768412,
+                    17.445453261905115
+                ]
+            },
+            "id": "24edd1fc-4da9-4716-bcf8-8331469768d7",
+            "properties": {
+                "Place Name": "Academic_Block"
+            }
+        }
+    ]
+}
