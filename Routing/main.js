@@ -144,7 +144,7 @@ function findNearestNode(lat, lon) {
 }
 
 // Search Optimization Function
-// Load nodes from JSON file and populate datalist
+// Load nodes from JSON file and populate datalist with descriptive node IDs only
 async function loadNodes() {
   try {
       const response = await fetch('graphs.json');
@@ -168,6 +168,3 @@ async function loadNodes() {
 }
 // Call loadNodes when the page loads
 document.addEventListener('DOMContentLoaded', loadNodes);
-// Call loadNodes when the page loads
-document.addEventListener('DOMContentLoaded', loadNodes);
-
