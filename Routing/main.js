@@ -142,3 +142,32 @@ function findNearestNode(lat, lon) {
 
   return nearestNode;
 }
+
+// Search Optimization Function
+// Load nodes from JSON file and populate datalist
+async function loadNodes() {
+  try {
+      const response = await fetch('graphs.json');
+      const data = await response.json();
+
+      // Populate the datalist with valid node IDs
+      const datalist = document.getElementById('nodeList');
+      datalist.innerHTML = ''; // Clear any existing options
+
+      for (const nodeId in data.nodes) {
+          // Only include node IDs that don't match the pattern "Node_<number>"
+          if (!/^Node_\d+$/.test(nodeId)) {
+              const option = document.createElement('option');
+              option.value = nodeId;
+              datalist.appendChild(option);
+          }
+      }
+  } catch (error) {
+      console.error("Error loading nodes:", error);
+  }
+}
+// Call loadNodes when the page loads
+document.addEventListener('DOMContentLoaded', loadNodes);
+// Call loadNodes when the page loads
+document.addEventListener('DOMContentLoaded', loadNodes);
+
