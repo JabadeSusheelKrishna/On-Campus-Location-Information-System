@@ -1,1 +1,73 @@
-{"type":"FeatureCollection","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[78.34950013735693,17.44684213167818]},"id":"76f721bd-c30d-4912-b315-c5a9510c2a7e","properties":{"Place Name":"Some"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[78.35149857984106,17.44607398728118]},"id":"6ba77c0e-7e16-4cd9-8155-7702c76b0e2a","properties":{"Place Name":"Entry"}}]}
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    78.34950013735693,
+                    17.44684213167818
+                ]
+            },
+            "id": "76f721bd-c30d-4912-b315-c5a9510c2a7e",
+            "properties": {
+                "name": "some_1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    78.35149857984106,
+                    17.44607398728118
+                ]
+            },
+            "id": "6ba77c0e-7e16-4cd9-8155-7702c76b0e2a",
+            "properties": {
+                "name": "IIIT"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    78.34939321158737,
+                    17.446746300180877
+                ]
+            },
+            "id": "6ec5c5b7-3afc-4983-b67e-cf9b83e21020",
+            "properties": {
+                "name": "some_2"
+            }
+        }
+    ],
+    "metadata": {
+        "tileStats": {
+            "layers": [
+                {
+                    "layer": "Adv_Entrances",
+                    "sourceType": "geojson",
+                    "attributes": [
+                        {
+                            "attribute": "name",
+                            "type": "String",
+                            "values": [
+                                "IIIT",
+                                "some_1",
+                                "some_2"
+                            ]
+                        }
+                    ],
+                    "attributeCount": 1,
+                    "geometry": [
+                        "Point"
+                    ]
+                }
+            ],
+            "layerCount": 1
+        }
+    }
+}

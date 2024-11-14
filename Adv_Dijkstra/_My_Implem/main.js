@@ -19,28 +19,28 @@ axios.get('graphs.json').then(response => {
 function distance_calculator(routeCoords) {
   const R = 6371000;
   function toRadians(degrees) {
-      return degrees * (Math.PI / 180);
+    return degrees * (Math.PI / 180);
   }
 
   let totalDistance = 0;
 
   for (let i = 0; i < routeCoords.length - 1; i++) {
-      const [lat1, lon1] = routeCoords[i];
-      const [lat2, lon2] = routeCoords[i + 1];
+    const [lat1, lon1] = routeCoords[i];
+    const [lat2, lon2] = routeCoords[i + 1];
 
-      const lat1Rad = toRadians(lat1);
-      const lat2Rad = toRadians(lat2);
-      const deltaLat = toRadians(lat2 - lat1);
-      const deltaLon = toRadians(lon2 - lon1);
+    const lat1Rad = toRadians(lat1);
+    const lat2Rad = toRadians(lat2);
+    const deltaLat = toRadians(lat2 - lat1);
+    const deltaLon = toRadians(lon2 - lon1);
 
-      const a = Math.sin(deltaLat / 2) * Math.sin(deltaLat / 2) +
-                Math.cos(lat1Rad) * Math.cos(lat2Rad) *
-                Math.sin(deltaLon / 2) * Math.sin(deltaLon / 2);
+    const a = Math.sin(deltaLat / 2) * Math.sin(deltaLat / 2) +
+      Math.cos(lat1Rad) * Math.cos(lat2Rad) *
+      Math.sin(deltaLon / 2) * Math.sin(deltaLon / 2);
 
-      const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
-      const distance = R * c;
+    const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+    const distance = R * c;
 
-      totalDistance += distance;
+    totalDistance += distance;
   }
 
   return totalDistance;
@@ -98,14 +98,14 @@ function dijkstra(graph, start, end) {
 
 function get_coords_from_graph(Nodes_path, graph_data) {
   const coordinates = [];
-  
+
   Nodes_path.forEach(node => {
     if (graph_data.nodes[node]) {
       const [lon, lat] = graph_data.nodes[node].coordinates;
       coordinates.push([lat, lon]);
     }
   });
-  
+
   return coordinates;
 }
 
@@ -166,16 +166,61 @@ function findBuildingName(lat, lon) {
 }
 
 // Fetch My Location Button Function - modified to use building name as the start node
-// Fetch My Location Button Function - modified to use hardcoded coordinates as the start node
+let entrancePoints = null;
+fetch("IIIT_Entrances.geojson")
+  .then(response => response.json())
+  .then(data => {
+    entrancePoints = data;
+  })
+  .catch(error => console.error("Error loading Entrance.geojson:", error));
+
+// Helper function to calculate Euclidean distance between two points
+function euclideanDistance(lat1, lon1, lat2, lon2) {
+  return Math.sqrt(Math.pow(lat2 - lat1, 2) + Math.pow(lon2 - lon1, 2));
+}
+
 function fetchMyLocation() {
-  console.log("HEllo")
-  const latitude = 17.446702949925296;
-  const longitude = 78.34955168529042;
+  console.log("Fetching location...");
+  const latitude = 17.446831523579156;
+  const longitude = 78.34956959180569;
   const buildingName = findBuildingName(latitude, longitude);
-  
-  if (buildingName) {
-    document.getElementById("startNode").value = buildingName; // Set the building name as the start node
+
+  if (buildingName && entrancePoints) {
+    // Filter entrances that match the building name
+    const matchingEntrances = entrancePoints.features.filter(feature => {
+      const entranceName = feature.properties.name;
+      console.log(entranceName.startsWith(buildingName + "_"));
+      return entranceName === buildingName || entranceName.startsWith(buildingName + "_");
+    });
+
+    if (matchingEntrances.length === 0) {
+      alert("No entrances found for this building.");
+      return;
+    }
+
+    // Find the nearest entrance if there are multiple
+    let nearestEntrance = matchingEntrances[0];
+    let minDistance = euclideanDistance(
+      latitude,
+      longitude,
+      nearestEntrance.geometry.coordinates[1],
+      nearestEntrance.geometry.coordinates[0]
+    );
+
+    matchingEntrances.slice(1).forEach(feature => {
+      const entranceLat = feature.geometry.coordinates[1];
+      const entranceLon = feature.geometry.coordinates[0];
+      const distance = euclideanDistance(latitude, longitude, entranceLat, entranceLon);
+
+      if (distance < minDistance) {
+        minDistance = distance;
+        nearestEntrance = feature;
+      }
+    });
+
+    // Set the nearest entrance in the startNode input field
+    document.getElementById("startNode").value = nearestEntrance.properties.name;
   } else {
-    alert("Location is not within any known building.");
+    alert("Location is not within any known building or entrance data not loaded.");
   }
 }

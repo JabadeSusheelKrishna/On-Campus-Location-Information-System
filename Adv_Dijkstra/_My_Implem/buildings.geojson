@@ -166,8 +166,55 @@
             "properties": {
                 "image": "SOmeee",
                 "details": "asdfjnwjg",
-                "name": "Some"
+                "name": "some"
             }
         }
-    ]
+    ],
+    "metadata": {
+        "tileStats": {
+            "layers": [
+                {
+                    "layer": "buildings",
+                    "sourceType": "geojson",
+                    "attributes": [
+                        {
+                            "attribute": "image",
+                            "type": "String",
+                            "values": [
+                                "../Images/Bakul/001.jpeg",
+                                "SOmeee",
+                                "https://images.deccanchronicle.com/dc-Cover-m6ps09fnu5bv1o3kh49kigq3t6-20171227005439.Medi.jpeg",
+                                "https://images.shiksha.com/mediadata/images/1600682498phpShX7UY.jpeg"
+                            ]
+                        },
+                        {
+                            "attribute": "details",
+                            "type": "String",
+                            "values": [
+                                "Bakul Nivas provides accommodation to students, faculty, and staff members of IIIT Hyderabad. The complex offers a comfortable living environment with modern amenities, allowing residents to focus on their academic and research pursuits.",
+                                "Its an Admin Block",
+                                "The Technology Hub (T-Hub) is a partnership between the International Institute of Information Technology (IIIT) Hyderabad and other organizations to foster innovation and entrepreneurship in India.",
+                                "asdfjnwjg"
+                            ]
+                        },
+                        {
+                            "attribute": "name",
+                            "type": "String",
+                            "values": [
+                                "Admin Block",
+                                "Bakul Nivas",
+                                "T-Hub",
+                                "some"
+                            ]
+                        }
+                    ],
+                    "attributeCount": 3,
+                    "geometry": [
+                        "Polygon"
+                    ]
+                }
+            ],
+            "layerCount": 1
+        }
+    }
 }

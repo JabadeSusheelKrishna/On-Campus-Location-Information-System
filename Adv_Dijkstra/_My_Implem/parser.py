@@ -66,7 +66,7 @@ with open('graphs.json', 'r') as graphs_file:
 # Process each feature in the GeoJSON file
 for feature in geojson_data['features']:
     target_coordinates = feature['geometry']['coordinates']
-    place_name = feature['properties']['Place Name']
+    place_name = feature['properties']['name']
 
     # Find the closest node to the target coordinates
     closest_node = None
@@ -79,15 +79,15 @@ for feature in geojson_data['features']:
             closest_node = node_id
 
     if not closest_node:
-        print(f"No nodes found for feature with place name '{place_name}'. Skipping...")
+        print(f"No nodes found for feature with name '{place_name}'. Skipping...")
         continue
 
-    # Check if the Place Name already exists as a node to avoid duplicates
+    # Check if the name already exists as a node to avoid duplicates
     if place_name in graphs_data['nodes']:
-        print(f"The place name '{place_name}' already exists as a node in Graphs.json. Skipping...")
+        print(f"The name '{place_name}' already exists as a node in Graphs.json. Skipping...")
         continue
 
-    # Rename the closest node to the Place Name from GeoJSON
+    # Rename the closest node to the name from GeoJSON
     # Update the node in the 'nodes' section
     graphs_data['nodes'][place_name] = graphs_data['nodes'].pop(closest_node)
     graphs_data['nodes'][place_name]['id'] = place_name
@@ -119,4 +119,4 @@ for feature in geojson_data['features']:
 with open('graphs.json', 'w') as updated_graphs_file:
     json.dump(graphs_data, updated_graphs_file, indent=4)
 
-print("Nodes have been renamed to their respective 'Place Name' values in Graphs.json.")
+print("Nodes have been renamed to their respective 'name' values in Graphs.json.")
