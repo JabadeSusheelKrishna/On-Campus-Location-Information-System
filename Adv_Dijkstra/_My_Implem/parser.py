@@ -66,7 +66,8 @@ with open('graphs.json', 'r') as graphs_file:
 # Process each feature in the GeoJSON file
 for feature in geojson_data['features']:
     target_coordinates = feature['geometry']['coordinates']
-    place_name = feature['properties']['name']
+    print(feature['properties'])
+    place_name = feature['properties']['Place Name']
 
     # Find the closest node to the target coordinates
     closest_node = None

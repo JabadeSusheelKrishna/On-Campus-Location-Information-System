@@ -182,18 +182,24 @@ function euclideanDistance(lat1, lon1, lat2, lon2) {
 }
 
 function fetchMyLocation() {
-  console.log("Fetching location...");
-  const latitude = 17.446831523579156;
-  const longitude = 78.34956959180569;
+  // console.log("Fetching location...");
+  const latitude = 17.44834027540592;
+  const longitude = 78.34839338228943;
   const buildingName = findBuildingName(latitude, longitude);
 
   if (buildingName && entrancePoints) {
     // Filter entrances that match the building name
     const matchingEntrances = entrancePoints.features.filter(feature => {
-      const entranceName = feature.properties.name;
-      console.log(entranceName.startsWith(buildingName + "_"));
-      return entranceName === buildingName || entranceName.startsWith(buildingName + "_");
+      const entranceName = feature.properties['Place Name'];
+      // console.log("-----")
+      // console.log(buildingName)
+      // console.log(entranceName)
+      // console.log(entranceName.startsWith(buildingName));
+      return entranceName === buildingName || entranceName.startsWith(buildingName);
     });
+
+    console.log("llllllll");
+    console.log(matchingEntrances)
 
     if (matchingEntrances.length === 0) {
       alert("No entrances found for this building.");
@@ -221,7 +227,7 @@ function fetchMyLocation() {
     });
 
     // Set the nearest entrance in the startNode input field
-    document.getElementById("startNode").value = nearestEntrance.properties.name;
+    document.getElementById("startNode").value = nearestEntrance.properties['Place Name'];
   } else {
     alert("Location is not within any known building or entrance data not loaded.");
   }
@@ -240,14 +246,14 @@ fetch("IIIT_Entrances.geojson")
 function populateArchitectureTypeDropdown() {
   const arcTypeDropdown = document.getElementById("arcTypeDropdown");
   const arcTypes = new Set();
-
+  
   // Collect unique architecture types
   buildingData.features.forEach(feature => {
     if (feature.properties.arc_type) {
       arcTypes.add(feature.properties.arc_type);
     }
   });
-
+  
   // Add options to the dropdown
   arcTypes.forEach(type => {
     const option = document.createElement("option");
@@ -255,16 +261,18 @@ function populateArchitectureTypeDropdown() {
     option.textContent = type;
     arcTypeDropdown.appendChild(option);
   });
+
 }
 
 // Function to populate the Architecture dropdown based on selected type
 function populateArchitectureDropdown() {
+  
   const selectedType = document.getElementById("arcTypeDropdown").value;
   const architectureDropdown = document.getElementById("architectureDropdown");
-
+  
   // Clear the current options
   architectureDropdown.innerHTML = '<option value="">Select Architecture</option>';
-
+  
   const startNode = document.getElementById("startNode").value;
 
   if (!graphData || !graphData.nodes[startNode]) {
@@ -276,13 +284,14 @@ function populateArchitectureDropdown() {
 
   buildingData.features.forEach(feature => {
     if (feature.properties.arc_type === selectedType) {
-      const architectureName = feature.properties.name;
-
+      const architectureName = feature.properties['Place Name'];
+      console.log(architectureName);
       if (!graphData.nodes[architectureName]) return;
 
       // Calculate shortest path distance using Dijkstra
       const { path, totalTime } = dijkstra(graphData, startNode, architectureName);
       // const graphDistance = path ? totalTime : "N/A";
+      console.log(path)
       const graphDistance = distance_calculator(get_coords_from_graph(path, graphData))
       // console.log("hhhh");
       // console.log(path)
