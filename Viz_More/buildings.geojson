@@ -50,7 +50,8 @@
             "properties": {
                 "image": "../Images/Bakul/001.jpeg",
                 "details": "Bakul Nivas provides accommodation to students, faculty, and staff members of IIIT Hyderabad. The complex offers a comfortable living environment with modern amenities, allowing residents to focus on their academic and research pursuits.",
-                "name": "Bakul Nivas"
+                "name": "Bakul_Nivas",
+                "arc_type": "hostel"
             }
         },
         {
@@ -84,10 +85,1409 @@
             },
             "id": "2b6c1458-16e4-4770-99b5-5291bee0e974",
             "properties": {
+                "arc_type": "NA",
                 "image": "https://images.deccanchronicle.com/dc-Cover-m6ps09fnu5bv1o3kh49kigq3t6-20171227005439.Medi.jpeg",
                 "name": "T-Hub",
                 "details": "The Technology Hub (T-Hub) is a partnership between the International Institute of Information Technology (IIIT) Hyderabad and other organizations to foster innovation and entrepreneurship in India."
             }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            78.34986563232155,
+                            17.44503074221224
+                        ],
+                        [
+                            78.3497257078696,
+                            17.444882198415556
+                        ],
+                        [
+                            78.34989298597475,
+                            17.444738672874706
+                        ],
+                        [
+                            78.35006657646079,
+                            17.44492736377181
+                        ],
+                        [
+                            78.34992559994492,
+                            17.445041782624628
+                        ],
+                        [
+                            78.34989509010131,
+                            17.44501869812494
+                        ],
+                        [
+                            78.34986563232155,
+                            17.44503074221224
+                        ]
+                    ]
+                ]
+            },
+            "id": "a871d60f-c0fd-450b-9dff-0cbd22ba34ca",
+            "properties": {
+                "arc_type": "NA",
+                "image": "https://images.picxy.com/cache/2020/2/9/55cbe3e9b14322dbf6d622efafed8f2c.webp",
+                "details": "The admin block at IIIT Hyderabad houses Alumni Affairs and key administrative functions, including the Board of Governors, Deans, Heads of Departments, and various committees.",
+                "name": "Admin_Block"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            78.34600485345999,
+                            17.44551493675465
+                        ],
+                        [
+                            78.34603472898112,
+                            17.445128132705207
+                        ],
+                        [
+                            78.3461072838171,
+                            17.44507520156033
+                        ],
+                        [
+                            78.34649566558767,
+                            17.445095559694806
+                        ],
+                        [
+                            78.34651700524563,
+                            17.445018198772857
+                        ],
+                        [
+                            78.3466023638764,
+                            17.444953052707973
+                        ],
+                        [
+                            78.34647859386132,
+                            17.444590677294798
+                        ],
+                        [
+                            78.34644018247803,
+                            17.444558104189426
+                        ],
+                        [
+                            78.34610301588549,
+                            17.44439523857112
+                        ],
+                        [
+                            78.34608594415909,
+                            17.44444002663093
+                        ],
+                        [
+                            78.34599631759676,
+                            17.44449702959922
+                        ],
+                        [
+                            78.34592803069239,
+                            17.44450517287909
+                        ],
+                        [
+                            78.34589388723964,
+                            17.4449041931433
+                        ],
+                        [
+                            78.3458469399921,
+                            17.444920479666337
+                        ],
+                        [
+                            78.34542868270034,
+                            17.444912336404983
+                        ],
+                        [
+                            78.34542441476873,
+                            17.44493269455762
+                        ],
+                        [
+                            78.34544148649513,
+                            17.44499376900086
+                        ],
+                        [
+                            78.34539027131711,
+                            17.44501005551588
+                        ],
+                        [
+                            78.3453860033855,
+                            17.44505891505223
+                        ],
+                        [
+                            78.34531771648005,
+                            17.445054843424685
+                        ],
+                        [
+                            78.34543721856352,
+                            17.445388716575692
+                        ],
+                        [
+                            78.34546282615304,
+                            17.44544164762955
+                        ],
+                        [
+                            78.34563781134625,
+                            17.4455393664568
+                        ],
+                        [
+                            78.34582986826683,
+                            17.445612655542533
+                        ],
+                        [
+                            78.34585974378689,
+                            17.445559724539407
+                        ],
+                        [
+                            78.34591949482916,
+                            17.445523079989016
+                        ],
+                        [
+                            78.34600485345999,
+                            17.44551493675465
+                        ]
+                    ]
+                ]
+            },
+            "id": "06c1f07b-2ac8-4196-8eaa-0783359b79c4",
+            "properties": {
+                "arc_type": "NA",
+                "image": "https://w.media/wp-content/uploads/2021/10/obh.jpg",
+                "details": "OBH, or Palash Nivas, is a hostel at the International Institute of Information Technology (IIIT) Hyderabad",
+                "name": "OBH"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            78.34862020186557,
+                            17.447594358307484
+                        ],
+                        [
+                            78.34857619848378,
+                            17.447627941389086
+                        ],
+                        [
+                            78.34829809711641,
+                            17.447337447530856
+                        ],
+                        [
+                            78.3483491410392,
+                            17.447288751984246
+                        ],
+                        [
+                            78.34832449914472,
+                            17.44726356462631
+                        ],
+                        [
+                            78.34879269511765,
+                            17.446867283081687
+                        ],
+                        [
+                            78.34881205660503,
+                            17.446879037207395
+                        ],
+                        [
+                            78.34885958025643,
+                            17.44684377482713
+                        ],
+                        [
+                            78.34897046877688,
+                            17.446957957748552
+                        ],
+                        [
+                            78.34899511066953,
+                            17.446944524467284
+                        ],
+                        [
+                            78.3490285532389,
+                            17.446976428508222
+                        ],
+                        [
+                            78.34900919175158,
+                            17.4469982575864
+                        ],
+                        [
+                            78.34913944175946,
+                            17.447146023580544
+                        ],
+                        [
+                            78.34909719851339,
+                            17.44719304000776
+                        ],
+                        [
+                            78.34911479986687,
+                            17.447213189901817
+                        ],
+                        [
+                            78.34895990796446,
+                            17.44733912668788
+                        ],
+                        [
+                            78.34894054647714,
+                            17.447313939337818
+                        ],
+                        [
+                            78.34878565457666,
+                            17.447451630143064
+                        ],
+                        [
+                            78.34880325593014,
+                            17.447471780008527
+                        ],
+                        [
+                            78.34863604308146,
+                            17.447611149849067
+                        ],
+                        [
+                            78.34862020186557,
+                            17.447594358307484
+                        ]
+                    ]
+                ]
+            },
+            "id": "c672a9d1-7461-4b48-a8fd-b2827a0887a4",
+            "properties": {
+                "arc_type": "NA",
+                "name": "Nilgiri",
+                "image": "https://leavestranscript.com/wp-content/uploads/2020/09/iiit-hyderabad.jpg",
+                "details": "The Nilgiri building at the International Institute of Information Technology (IIIT-H) in Hyderabad"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            78.34946108180242,
+                            17.446297979754107
+                        ],
+                        [
+                            78.34934666863433,
+                            17.44640417970035
+                        ],
+                        [
+                            78.34948581978483,
+                            17.44655167952257
+                        ],
+                        [
+                            78.35065778169155,
+                            17.445566378445903
+                        ],
+                        [
+                            78.35049698480714,
+                            17.445410027786252
+                        ],
+                        [
+                            78.35037329489649,
+                            17.445516228248948
+                        ],
+                        [
+                            78.35011354608235,
+                            17.44524187692626
+                        ],
+                        [
+                            78.35020322126798,
+                            17.44515337641127
+                        ],
+                        [
+                            78.35011973057794,
+                            17.44506192583397
+                        ],
+                        [
+                            78.34902816711428,
+                            17.445991179563535
+                        ],
+                        [
+                            78.34913021129108,
+                            17.446094429685076
+                        ],
+                        [
+                            78.34921988647505,
+                            17.446032479619006
+                        ],
+                        [
+                            78.34946108180242,
+                            17.446297979754107
+                        ]
+                    ]
+                ]
+            },
+            "id": "c61ab099-1093-4346-95c9-f500bff6f884",
+            "properties": {
+                "arc_type": "NA",
+                "name": "Vindhya",
+                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2_OGmiRahuea4VAUV_OQYYAh8tkWWKrVso-EqR-hmos7y-YtzQjrvoEj9iVsJYZYEsR8&usqp=CAU",
+                "details": " The Vindhya building at IIIT Hyderabad hosts numerous research labs, the Center for Innovation and Entrepreneurship (CIE), and a bank."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            78.34905101548537,
+                            17.445704718540497
+                        ],
+                        [
+                            78.3489349555847,
+                            17.445584155289296
+                        ],
+                        [
+                            78.34899040642608,
+                            17.445538636489857
+                        ],
+                        [
+                            78.34889626895153,
+                            17.445440217425855
+                        ],
+                        [
+                            78.34896590489166,
+                            17.445378705483705
+                        ],
+                        [
+                            78.34894269291215,
+                            17.44535410070074
+                        ],
+                        [
+                            78.34901490796045,
+                            17.445292588729544
+                        ],
+                        [
+                            78.34913096786113,
+                            17.445414382412707
+                        ],
+                        [
+                            78.3491477320681,
+                            17.445404540501855
+                        ],
+                        [
+                            78.34909099167322,
+                            17.4453442587873
+                        ],
+                        [
+                            78.34915546939555,
+                            17.445287667771552
+                        ],
+                        [
+                            78.34921092023558,
+                            17.445347949504836
+                        ],
+                        [
+                            78.34922252622601,
+                            17.445336877351394
+                        ],
+                        [
+                            78.349109045435,
+                            17.445217544096735
+                        ],
+                        [
+                            78.34917868137512,
+                            17.445153571598325
+                        ],
+                        [
+                            78.3493811414229,
+                            17.445371324049134
+                        ],
+                        [
+                            78.34931537414582,
+                            17.445429145278
+                        ],
+                        [
+                            78.34934116523499,
+                            17.445456210527254
+                        ],
+                        [
+                            78.34926637107702,
+                            17.44552018291948
+                        ],
+                        [
+                            78.34923929043435,
+                            17.44549557815631
+                        ],
+                        [
+                            78.34921994711783,
+                            17.44551157125285
+                        ],
+                        [
+                            78.34928571439355,
+                            17.445573083150165
+                        ],
+                        [
+                            78.34913612607903,
+                            17.445697337119157
+                        ],
+                        [
+                            78.34910130810886,
+                            17.445665350957256
+                        ],
+                        [
+                            78.34905101548537,
+                            17.445704718540497
+                        ]
+                    ]
+                ]
+            },
+            "id": "998afa9f-00f6-4468-ac71-dc54ad05247b",
+            "properties": {
+                "arc_type": "NA",
+                "name": "Himalaya",
+                "image": "https://www.iiit.ac.in/wp-content/uploads/2018/04/image-768x576-1.jpg",
+                "details": "Himalaya Class room Block"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            78.34951670686888,
+                            17.445344311455386
+                        ],
+                        [
+                            78.34943572332742,
+                            17.445257688187368
+                        ],
+                        [
+                            78.34948316823153,
+                            17.445217107904256
+                        ],
+                        [
+                            78.34945780974874,
+                            17.44519291580781
+                        ],
+                        [
+                            78.34939564056543,
+                            17.445243641167423
+                        ],
+                        [
+                            78.3493645559738,
+                            17.44521008439243
+                        ],
+                        [
+                            78.34942917920273,
+                            17.445156237461774
+                        ],
+                        [
+                            78.34940545675153,
+                            17.445129704185888
+                        ],
+                        [
+                            78.34935637581754,
+                            17.445165602146616
+                        ],
+                        [
+                            78.3492721202129,
+                            17.44506961410528
+                        ],
+                        [
+                            78.34952979511814,
+                            17.44486437121273
+                        ],
+                        [
+                            78.3495486094763,
+                            17.44488622217827
+                        ],
+                        [
+                            78.34962468492472,
+                            17.444826132017383
+                        ],
+                        [
+                            78.34973511702793,
+                            17.444954116232807
+                        ],
+                        [
+                            78.3496893081554,
+                            17.444990794618604
+                        ],
+                        [
+                            78.34970812251356,
+                            17.44501966908841
+                        ],
+                        [
+                            78.34976129352657,
+                            17.444979088751495
+                        ],
+                        [
+                            78.34984554912944,
+                            17.445074296449548
+                        ],
+                        [
+                            78.34977519978992,
+                            17.445129704185888
+                        ],
+                        [
+                            78.34980710239739,
+                            17.445164041366283
+                        ],
+                        [
+                            78.3496115966754,
+                            17.44531933898587
+                        ],
+                        [
+                            78.34958460216274,
+                            17.445291244953623
+                        ],
+                        [
+                            78.34951670686888,
+                            17.445344311455386
+                        ]
+                    ]
+                ]
+            },
+            "id": "58dac0d7-a062-4892-a5a1-817ef8f2b33e",
+            "properties": {
+                "arc_type": "NA",
+                "name": "KRB",
+                "details": "Kohli Research Block",
+                "image": "https://assets.telegraphindia.com/telegraph/2022/Feb/1645769303_iiit-hyderabad.jpg"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            78.34696305845563,
+                            17.446949952508433
+                        ],
+                        [
+                            78.3468514130708,
+                            17.44683122097534
+                        ],
+                        [
+                            78.34692462316019,
+                            17.44676661701989
+                        ],
+                        [
+                            78.34703443829227,
+                            17.44688709464755
+                        ],
+                        [
+                            78.34723393578435,
+                            17.44671598147133
+                        ],
+                        [
+                            78.34712412065034,
+                            17.446598995840205
+                        ],
+                        [
+                            78.34719733073973,
+                            17.446541376023944
+                        ],
+                        [
+                            78.34720099124314,
+                            17.446544868134552
+                        ],
+                        [
+                            78.34732361814247,
+                            17.446675822233274
+                        ],
+                        [
+                            78.34735473242887,
+                            17.44665836169203
+                        ],
+                        [
+                            78.34739865848258,
+                            17.446708997256607
+                        ],
+                        [
+                            78.34735656268168,
+                            17.44674915648733
+                        ],
+                        [
+                            78.3473803559612,
+                            17.446763124913502
+                        ],
+                        [
+                            78.34739316772635,
+                            17.446759632807073
+                        ],
+                        [
+                            78.34750847361659,
+                            17.446881856491885
+                        ],
+                        [
+                            78.34749017109334,
+                            17.44690106306315
+                        ],
+                        [
+                            78.34754324840856,
+                            17.44695693671393
+                        ],
+                        [
+                            78.34755422992095,
+                            17.446948206457435
+                        ],
+                        [
+                            78.34763293076662,
+                            17.446955190663047
+                        ],
+                        [
+                            78.34767502656746,
+                            17.44700058799198
+                        ],
+                        [
+                            78.34767685682021,
+                            17.44707217606563
+                        ],
+                        [
+                            78.34765123328799,
+                            17.447087890516684
+                        ],
+                        [
+                            78.34771895262111,
+                            17.44715598645722
+                        ],
+                        [
+                            78.34773725514242,
+                            17.447142018061115
+                        ],
+                        [
+                            78.34786171229246,
+                            17.447267733586344
+                        ],
+                        [
+                            78.34789831733713,
+                            17.447245034956552
+                        ],
+                        [
+                            78.34795871566132,
+                            17.447309638741558
+                        ],
+                        [
+                            78.34792760137287,
+                            17.4473323373642
+                        ],
+                        [
+                            78.34796054591209,
+                            17.447370750409803
+                        ],
+                        [
+                            78.34806120978459,
+                            17.447485989499896
+                        ],
+                        [
+                            78.34800081146221,
+                            17.447540116926135
+                        ],
+                        [
+                            78.34788367531928,
+                            17.44741614763616
+                        ],
+                        [
+                            78.34784157951833,
+                            17.4474545606641
+                        ],
+                        [
+                            78.34768966858542,
+                            17.447590752245773
+                        ],
+                        [
+                            78.34779582321397,
+                            17.447714721416986
+                        ],
+                        [
+                            78.34772627363003,
+                            17.44777583294858
+                        ],
+                        [
+                            78.34761279799244,
+                            17.44765011777467
+                        ],
+                        [
+                            78.34763476101926,
+                            17.447632657326707
+                        ],
+                        [
+                            78.3475395879031,
+                            17.44753837087991
+                        ],
+                        [
+                            78.34752677613795,
+                            17.447550593200404
+                        ],
+                        [
+                            78.34741330050042,
+                            17.447430116010324
+                        ],
+                        [
+                            78.34747735932814,
+                            17.447372496457646
+                        ],
+                        [
+                            78.34758717446027,
+                            17.44749122763821
+                        ],
+                        [
+                            78.34756887193885,
+                            17.447506942054076
+                        ],
+                        [
+                            78.34759083496567,
+                            17.447531386696653
+                        ],
+                        [
+                            78.34783791901486,
+                            17.447327099220388
+                        ],
+                        [
+                            78.34781412573534,
+                            17.447302654549503
+                        ],
+                        [
+                            78.34779033245775,
+                            17.4473166229333
+                        ],
+                        [
+                            78.34767502656746,
+                            17.4471961455895
+                        ],
+                        [
+                            78.3477006500978,
+                            17.447169954852214
+                        ],
+                        [
+                            78.34763659127003,
+                            17.44710884311661
+                        ],
+                        [
+                            78.34762377950489,
+                            17.44712281151523
+                        ],
+                        [
+                            78.34754690891208,
+                            17.447119319415663
+                        ],
+                        [
+                            78.34750664336389,
+                            17.44707916026647
+                        ],
+                        [
+                            78.34748468033706,
+                            17.447100112867417
+                        ],
+                        [
+                            78.34752860639071,
+                            17.44715074830927
+                        ],
+                        [
+                            78.34738584671743,
+                            17.44727297173091
+                        ],
+                        [
+                            78.34732544839505,
+                            17.447203129785606
+                        ],
+                        [
+                            78.34746454756299,
+                            17.44708439841645
+                        ],
+                        [
+                            78.34743160302378,
+                            17.44705122346147
+                        ],
+                        [
+                            78.34746454756299,
+                            17.447019794551693
+                        ],
+                        [
+                            78.34750115260766,
+                            17.447058207663133
+                        ],
+                        [
+                            78.34750481311113,
+                            17.446995349839597
+                        ],
+                        [
+                            78.34751945512897,
+                            17.446981381431186
+                        ],
+                        [
+                            78.34746454756299,
+                            17.44692725383908
+                        ],
+                        [
+                            78.34744441478887,
+                            17.44693598409748
+                        ],
+                        [
+                            78.34732727864588,
+                            17.446818998606602
+                        ],
+                        [
+                            78.34734375091642,
+                            17.446799792026667
+                        ],
+                        [
+                            78.34732910889863,
+                            17.44678756965675
+                        ],
+                        [
+                            78.34728518284498,
+                            17.446824236764982
+                        ],
+                        [
+                            78.34727420133254,
+                            17.446812014395746
+                        ],
+                        [
+                            78.34711679964141,
+                            17.446934238045444
+                        ],
+                        [
+                            78.34713510216471,
+                            17.446955190663047
+                        ],
+                        [
+                            78.34711862989411,
+                            17.446976143278263
+                        ],
+                        [
+                            78.34723576603511,
+                            17.447115827316082
+                        ],
+                        [
+                            78.34716621645123,
+                            17.4471734469508
+                        ],
+                        [
+                            78.34705091056287,
+                            17.44704423925957
+                        ],
+                        [
+                            78.34706555258083,
+                            17.447032016906036
+                        ],
+                        [
+                            78.3469831912297,
+                            17.446937730148576
+                        ],
+                        [
+                            78.34696305845563,
+                            17.446949952508433
+                        ]
+                    ]
+                ]
+            },
+            "id": "3d177c4a-e661-432b-8261-d445f6a99744",
+            "properties": {
+                "name": "Kadamb_Nivas",
+                "image": "data:image/jpeg;base64,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",
+                "details": "Kadamb Nivas is a hostel at IIIT Hyderabad, featuring two messes and Parijat Nivas.",
+                "arc_type": "mess"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            78.34729915028959,
+                            17.445804731633743
+                        ],
+                        [
+                            78.3470096033268,
+                            17.445789036855984
+                        ],
+                        [
+                            78.34701508717114,
+                            17.445678127053057
+                        ],
+                        [
+                            78.3472848922948,
+                            17.445700099755612
+                        ],
+                        [
+                            78.34743405285144,
+                            17.445555707665292
+                        ],
+                        [
+                            78.347543729731,
+                            17.44565720066747
+                        ],
+                        [
+                            78.34737373056731,
+                            17.445822519046402
+                        ],
+                        [
+                            78.34732108566573,
+                            17.4457796199882
+                        ],
+                        [
+                            78.34729915028959,
+                            17.445804731633743
+                        ]
+                    ]
+                ]
+            },
+            "id": "4d657dc4-6291-4e74-b9fe-4d417767e901",
+            "properties": {
+                "arc_type": "NA",
+                "name": "Sahana_Athidi_Nivas",
+                "details": "Sahana Athidi Nivas is a building at IIIT Hyderabad that includes the Tantra Canteen and a guest house.",
+                "image": "No image"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            78.3482812490609,
+                            17.44400887933014
+                        ],
+                        [
+                            78.34821325345837,
+                            17.443952119374842
+                        ],
+                        [
+                            78.34852489997371,
+                            17.443687239352712
+                        ],
+                        [
+                            78.34860139502752,
+                            17.443771027972943
+                        ],
+                        [
+                            78.34853056627412,
+                            17.443830490841137
+                        ],
+                        [
+                            78.34854473202421,
+                            17.44384400512682
+                        ],
+                        [
+                            78.34857306352586,
+                            17.443825085126576
+                        ],
+                        [
+                            78.3486325596786,
+                            17.443892656546268
+                        ],
+                        [
+                            78.34862689337831,
+                            17.443895359402575
+                        ],
+                        [
+                            78.34865239172905,
+                            17.443930496530797
+                        ],
+                        [
+                            78.34857306352586,
+                            17.443992662201865
+                        ],
+                        [
+                            78.34852773312315,
+                            17.443968336506728
+                        ],
+                        [
+                            78.34849656847206,
+                            17.44399536505668
+                        ],
+                        [
+                            78.34852489997371,
+                            17.444027799310575
+                        ],
+                        [
+                            78.34848240272049,
+                            17.4440548278517
+                        ],
+                        [
+                            78.34845123806946,
+                            17.444035907873328
+                        ],
+                        [
+                            78.34843707231931,
+                            17.444046719289787
+                        ],
+                        [
+                            78.34846257067011,
+                            17.444079153535284
+                        ],
+                        [
+                            78.34843423916845,
+                            17.44409807350847
+                        ],
+                        [
+                            78.34840874081766,
+                            17.444079153535284
+                        ],
+                        [
+                            78.34840024136639,
+                            17.44407645068175
+                        ],
+                        [
+                            78.34830958056261,
+                            17.443989959346993
+                        ],
+                        [
+                            78.3482812490609,
+                            17.44400887933014
+                        ]
+                    ]
+                ]
+            },
+            "id": "506201c3-e991-4329-adc4-18f91e9752c1",
+            "properties": {
+                "arc_type": "NA",
+                "name": "Faculty_Home_1",
+                "details": "Faculty Home 1 is a residential building at IIIT Hyderabad where faculty members reside.",
+                "image": "No Image"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            78.34854760523433,
+                            17.443536702482646
+                        ],
+                        [
+                            78.34827221652944,
+                            17.443240373609072
+                        ],
+                        [
+                            78.34832505273516,
+                            17.443199131923492
+                        ],
+                        [
+                            78.34833465931706,
+                            17.443208296743393
+                        ],
+                        [
+                            78.34837628784163,
+                            17.443177747342702
+                        ],
+                        [
+                            78.3483987032024,
+                            17.443202186863488
+                        ],
+                        [
+                            78.34851718438927,
+                            17.443107483700658
+                        ],
+                        [
+                            78.34858763266129,
+                            17.44318385722339
+                        ],
+                        [
+                            78.34854920633012,
+                            17.443218989033127
+                        ],
+                        [
+                            78.34860364363175,
+                            17.44327703287763
+                        ],
+                        [
+                            78.34864527215797,
+                            17.443246483487655
+                        ],
+                        [
+                            78.3487141193342,
+                            17.443319802014187
+                        ],
+                        [
+                            78.34858923375879,
+                            17.443422142408167
+                        ],
+                        [
+                            78.34861965460385,
+                            17.443457274172772
+                        ],
+                        [
+                            78.34858603156374,
+                            17.443489350994597
+                        ],
+                        [
+                            78.34859403704979,
+                            17.443498515799135
+                        ],
+                        [
+                            78.34854760523433,
+                            17.443536702482646
+                        ]
+                    ]
+                ]
+            },
+            "id": "9ca184da-2d6f-4b6f-bd1c-b1ba41094ef8",
+            "properties": {
+                "arc_type": "NA",
+                "name": "Faculty_Home_2",
+                "details": "Faculty Home 2 is a residential building at IIIT Hyderabad where faculty members reside.",
+                "image": "No Image"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            78.34769617550302,
+                            17.447853927316487
+                        ],
+                        [
+                            78.34775146590312,
+                            17.447806352034448
+                        ],
+                        [
+                            78.34780892455365,
+                            17.447865304012353
+                        ],
+                        [
+                            78.3477547182793,
+                            17.447915982013086
+                        ],
+                        [
+                            78.34769617550302,
+                            17.447853927316487
+                        ]
+                    ]
+                ]
+            },
+            "id": "6e2adaab-137b-4dc2-9ac8-43b882560049",
+            "properties": {
+                "arc_type": "NA",
+                "name": "BBC",
+                "details": "Basket Ball Canteen",
+                "image": "No Image"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            78.34789565459863,
+                            17.44808559809502
+                        ],
+                        [
+                            78.34795636562541,
+                            17.448031817409316
+                        ],
+                        [
+                            78.34803442266127,
+                            17.448051468046444
+                        ],
+                        [
+                            78.34804309566408,
+                            17.448125933599357
+                        ],
+                        [
+                            78.34798021638687,
+                            17.448166269094855
+                        ],
+                        [
+                            78.34789565459863,
+                            17.44808559809502
+                        ]
+                    ]
+                ]
+            },
+            "id": "a5ad42de-9eae-41d4-a533-37c8523b6aa7",
+            "properties": {
+                "arc_type": "NA",
+                "name": "Amphitheatre",
+                "details": "The Amphitheatre at IIIT Hyderabad is a venue for hosting various events and shows.",
+                "image": "No Image"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            78.34797557581834,
+                            17.448306478618207
+                        ],
+                        [
+                            78.34808817012782,
+                            17.44821235875108
+                        ],
+                        [
+                            78.34813666371736,
+                            17.44826819257598
+                        ],
+                        [
+                            78.3481132530186,
+                            17.44828733559865
+                        ],
+                        [
+                            78.34813666371736,
+                            17.448313391374555
+                        ],
+                        [
+                            78.34815227084903,
+                            17.448303288115255
+                        ],
+                        [
+                            78.34821135499305,
+                            17.44836656641715
+                        ],
+                        [
+                            78.34819742005334,
+                            17.448381455427025
+                        ],
+                        [
+                            78.348188501692,
+                            17.448372947421888
+                        ],
+                        [
+                            78.34816118921037,
+                            17.448396344434627
+                        ],
+                        [
+                            78.34816899277621,
+                            17.448406447688726
+                        ],
+                        [
+                            78.34820187923401,
+                            17.44838251892685
+                        ],
+                        [
+                            78.34822640472703,
+                            17.448412296941655
+                        ],
+                        [
+                            78.3481589596206,
+                            17.44846494020524
+                        ],
+                        [
+                            78.34813499152415,
+                            17.448435693949307
+                        ],
+                        [
+                            78.34810935123568,
+                            17.448453773453878
+                        ],
+                        [
+                            78.34797557581834,
+                            17.448306478618207
+                        ]
+                    ]
+                ]
+            },
+            "id": "8856251d-e24a-4b47-8606-dc4beba1e087",
+            "properties": {
+                "arc_type": "NA",
+                "name": "Warehouse",
+                "details": "The Warehouse at IIIT Hyderabad is a building used for indoor games and events.",
+                "image": "No Image"
+            }
         }
-    ]
+    ],
+    "metadata": {
+        "tileStats": {
+            "layers": [
+                {
+                    "layer": "New dataset",
+                    "sourceType": "geojson",
+                    "attributes": [
+                        {
+                            "attribute": "image",
+                            "type": "String",
+                            "values": [
+                                "../Images/Bakul/001.jpeg",
+                                "No Image",
+                                "No image",
+                                "No_Image",
+                                "https://images.deccanchronicle.com/dc-Cover-m6ps09fnu5bv1o3kh49kigq3t6-20171227005439.Medi.jpeg",
+                                "https://leavestranscript.com/universities/iiit-hyderabad/",
+                                "https://w.media/iiit-hyderabad-researchers-create-ai-embedded-sensor-to-help-with-physiotherapy/",
+                                "https://www.google.com/imgres?q=vindhya%20iiith%20building&imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F2%2F2c%2FVindhya_block_at_IIIT_Gachibowli%252C_Hyderabad.jpg&imgrefurl=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3AVindhya_block_at_IIIT_Gachibowli%2C_Hyderabad.jpg&docid=HUDdzS358BwcaM&tbnid=lcvDAXQfBkQlkM&vet=12ahUKEwiCgfyZ4t2JAxX_yzgGHRduHKQQM3oECBUQAA..i&w=4032&h=3024&hcb=2&ved=2ahUKEwiCgfyZ4t2JAxX_yzgGHRduHKQQM3oECBUQAA",
+                                "https://www.iiit.ac.in/art-at-iiith-more-than-just-a-hobby/",
+                                "https://www.picxy.com/photo/468490",
+                                "https://www.telegraphindia.com/edugraph/news/iiit-hyderabad-conducts-its-annual-conference-on-technology-and-society/cid/1853439"
+                            ]
+                        },
+                        {
+                            "attribute": "details",
+                            "type": "String",
+                            "values": [
+                                " The Vindhya building at IIIT Hyderabad hosts numerous research labs, the Center for Innovation and Entrepreneurship (CIE), and a bank.",
+                                "Bakul Nivas provides accommodation to students, faculty, and staff members of IIIT Hyderabad. The complex offers a comfortable living environment with modern amenities, allowing residents to focus on their academic and research pursuits.",
+                                "Basket Ball Canteen",
+                                "Faculty Home 1 is a residential building at IIIT Hyderabad where faculty members reside.",
+                                "Faculty Home 2 is a residential building at IIIT Hyderabad where faculty members reside.",
+                                "Himalaya Class room Block",
+                                "Kadamb Nivas is a hostel at IIIT Hyderabad, featuring two messes and Parijat Nivas.",
+                                "Kohli Research Block",
+                                "OBH, or Palash Nivas, is a hostel at the International Institute of Information Technology (IIIT) Hyderabad",
+                                "Sahana Athidi Nivas is a building at IIIT Hyderabad that includes the Tantra Canteen and a guest house.",
+                                "The Amphitheatre at IIIT Hyderabad is a venue for hosting various events and shows.",
+                                "The Nilgiri building at the International Institute of Information Technology (IIIT-H) in Hyderabad",
+                                "The Technology Hub (T-Hub) is a partnership between the International Institute of Information Technology (IIIT) Hyderabad and other organizations to foster innovation and entrepreneurship in India.",
+                                "The Warehouse at IIIT Hyderabad is a building used for indoor games and events.",
+                                "The admin block at IIIT Hyderabad houses Alumni Affairs and key administrative functions, including the Board of Governors, Deans, Heads of Departments, and various committees."
+                            ]
+                        },
+                        {
+                            "attribute": "name",
+                            "type": "String",
+                            "values": [
+                                "Admin_Block",
+                                "Amphitheatre",
+                                "BBC",
+                                "Bakul Nivas",
+                                "Faculty_Home_1",
+                                "Faculty_Home_2",
+                                "Himalaya",
+                                "KRB",
+                                "Kadamb_Nivas",
+                                "Nilgiri",
+                                "OBH",
+                                "Sahana_Athidi_Nivas",
+                                "T-Hub",
+                                "Vindhya",
+                                "Warehouse"
+                            ]
+                        },
+                        {
+                            "attribute": "arc_type",
+                            "type": "String",
+                            "values": [
+                                "NA",
+                                "hostel",
+                                "mess"
+                            ]
+                        }
+                    ],
+                    "attributeCount": 4,
+                    "geometry": [
+                        "Polygon"
+                    ]
+                }
+            ],
+            "layerCount": 1
+        }
+    }
 }
