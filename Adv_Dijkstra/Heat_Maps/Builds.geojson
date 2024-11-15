@@ -1,0 +1,88 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    78.3491673765966,
+                    17.4454850940442
+                ]
+            },
+            "id": "0c6611b0-d826-484c-901c-3fa7eb18d25e",
+            "properties": {
+                "name": "Himalaya_Block"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    78.34758945732932,
+                    17.447041020553442
+                ]
+            },
+            "id": "3d71e4da-9bf5-4a80-99b6-af48df1cb6a4",
+            "properties": {
+                "name": "Kadamb_Mess"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    78.34853234996086,
+                    17.4481857033321
+                ]
+            },
+            "id": "43bb11fe-847d-454e-85f5-03fbf436716e",
+            "properties": {
+                "name": "Bakul_Nivas"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    78.34739116639327,
+                    17.44570505299626
+                ]
+            },
+            "id": "649e1128-d9b2-49ab-b945-f04b5c971a57",
+            "properties": {
+                "name": "Tantra_canteen"
+            }
+        }
+    ],
+    "metadata": {
+        "tileStats": {
+            "layers": [
+                {
+                    "layer": "Builds",
+                    "sourceType": "geojson",
+                    "attributes": [
+                        {
+                            "attribute": "name",
+                            "type": "String",
+                            "values": [
+                                "Bakul_Nivas",
+                                "Himalaya_Block",
+                                "Kadamb_Mess",
+                                "Tantra_canteen"
+                            ]
+                        }
+                    ],
+                    "attributeCount": 1,
+                    "geometry": [
+                        "Point"
+                    ]
+                }
+            ],
+            "layerCount": 1
+        }
+    }
+}
