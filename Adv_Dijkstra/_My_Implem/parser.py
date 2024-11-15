@@ -14,7 +14,7 @@ def parse_geojson_to_graph(geojson_data):
 
     for feature in geojson_data["features"]:
         coords = feature["geometry"]["coordinates"]
-        time_for_road = feature["properties"]["time_in_seconds"]
+        time_for_road = 5
 
         for i in range(len(coords) - 1):
             start = tuple(coords[i])

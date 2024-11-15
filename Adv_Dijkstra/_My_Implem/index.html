@@ -16,10 +16,24 @@
   <label for="startNode">From Node ID:</label>
   <input type="text" id="startNode" placeholder="e.g., Node_0">
   <button onclick="fetchMyLocation()">Fetch My Location</button>
+  
   <label for="endNode">To Node ID:</label>
   <input type="text" id="endNode" placeholder="e.g., Node_2">
+  
+  <!-- New Dropdowns for Architecture Type and Related Architectures -->
+  <label for="arcTypeDropdown">Architecture Type:</label>
+  <select id="arcTypeDropdown" onchange="populateArchitectureDropdown()">
+    <option value="">Select Type</option>
+  </select>
+  
+  <label for="architectureDropdown">Architecture:</label>
+  <select id="architectureDropdown" onchange="setEndNode()">
+    <option value="">Select Architecture</option>
+  </select>
+
   <button onclick="findRoute()">Find Route</button>
 </div>
+
 
 <div id="map"></div>
 
@@ -27,6 +41,7 @@
 <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 <script src="https://unpkg.com/@turf/turf/turf.min.js"></script>
 <script src="main.js"></script>
+<script src="drop_down.js"></script>
 
 <h1 id="distance"></h1>
 <h1 id="time"></h1>

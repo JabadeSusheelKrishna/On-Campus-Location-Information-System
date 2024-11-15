@@ -12,6 +12,7 @@
             },
             "id": "76f721bd-c30d-4912-b315-c5a9510c2a7e",
             "properties": {
+                "arc_type": "NA",
                 "name": "some_1"
             }
         },
@@ -26,6 +27,7 @@
             },
             "id": "6ba77c0e-7e16-4cd9-8155-7702c76b0e2a",
             "properties": {
+                "arc_type": "NA",
                 "name": "IIIT"
             }
         },
@@ -40,7 +42,38 @@
             },
             "id": "6ec5c5b7-3afc-4983-b67e-cf9b83e21020",
             "properties": {
+                "arc_type": "NA",
                 "name": "some_2"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    78.34854307853368,
+                    17.44782733919837
+                ]
+            },
+            "id": "a557fec8-d9c0-42e6-8860-104121da5938",
+            "properties": {
+                "name": "Bakul_Nivas",
+                "arc_type": "hostel"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    78.34790836230542,
+                    17.44728910447199
+                ]
+            },
+            "id": "010563b6-68de-4e94-a5e9-475345864a4c",
+            "properties": {
+                "name": "Kadamba_mess",
+                "arc_type": "mess"
             }
         }
     ],
@@ -55,13 +88,24 @@
                             "attribute": "name",
                             "type": "String",
                             "values": [
+                                "Bakul_Nivas",
                                 "IIIT",
+                                "Kadamba_mess",
                                 "some_1",
                                 "some_2"
                             ]
+                        },
+                        {
+                            "attribute": "arc_type",
+                            "type": "String",
+                            "values": [
+                                "NA",
+                                "hostel",
+                                "mess"
+                            ]
                         }
                     ],
-                    "attributeCount": 1,
+                    "attributeCount": 2,
                     "geometry": [
                         "Point"
                     ]
