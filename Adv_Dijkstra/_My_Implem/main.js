@@ -12,9 +12,25 @@ axios.get('Roads_IIIT.geojson').then(response => {
 
 // Load and parse Graphs.json (replace with your own path)
 let graphData;
-axios.get('graphs.json').then(response => {
-  graphData = response.data;
-});
+
+function updateGraphData() {
+  const movable = document.getElementById("transportationDropdown").value;
+
+  if (movable === "walk") {
+    axios.get('graphs.json').then(response => {
+      graphData = response.data;
+      console.log("Graph data for walking loaded", graphData);
+    });
+  } else {
+    axios.get('both.json').then(response => {
+      graphData = response.data;
+      console.log("Graph data for vehicles loaded", graphData);
+    });
+  }
+}
+
+// Initialize graphData based on the default dropdown value
+updateGraphData();
 
 function distance_calculator(routeCoords) {
   const R = 6371000;
@@ -119,6 +135,21 @@ function findRoute() {
   if (!graphData || !graphData.nodes[startNode] || !graphData.nodes[endNode]) {
     alert("Invalid node IDs.");
     return;
+  }
+  var movable = document.getElementById("transportationDropdown").value;
+
+  if (movable === "walk") {
+    axios.get('graphs.json').then(response => {
+      graphData = response.data;
+    });
+    console.log("AAAAAAAA");
+    console.log(movable)
+  }
+  else{
+    axios.get('both.json').then(response => {
+      graphData = response.data;
+    });
+    console.log("BBBBBBBB");
   }
 
   const { path, totalTime } = dijkstra(graphData, startNode, endNode);

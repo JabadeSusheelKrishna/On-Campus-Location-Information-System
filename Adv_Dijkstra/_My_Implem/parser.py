@@ -14,6 +14,10 @@ def parse_geojson_to_graph(geojson_data):
 
     for feature in geojson_data["features"]:
         coords = feature["geometry"]["coordinates"]
+        way = feature["properties"]["type"]
+        passability = feature["properties"]["Transportation"]
+        if passability == "None":
+            continue
         time_for_road = 5
 
         for i in range(len(coords) - 1):
@@ -40,8 +44,9 @@ def parse_geojson_to_graph(geojson_data):
             if node_end not in edges:
                 edges[node_end] = []
 
-            edges[node_start].append({"target": node_end, "weight": distance, "time": time_for_road})
-            # edges[node_end].append({"target": node_start, "weight": distance})
+            edges[node_start].append({"target": node_end, "weight": distance, "time": time_for_road, "passability" : passability})
+            if way != "One-Way":
+                edges[node_end].append({"target": node_start, "weight": distance, "time" : time_for_road, "passability" : passability})
 
     return {"nodes": nodes, "edges": edges}
 
@@ -105,7 +110,8 @@ for feature in geojson_data['features']:
             updated_edges.append({
                 'target': updated_target,
                 'weight': edge['weight'],
-                'time': edge.get('time')  # Include 'time' attribute if it exists
+                'time': edge.get('time'),  # Include 'time' attribute if it exists
+                'passability' : edge.get('passability')
             })
         new_edges[node_key] = updated_edges
     graphs_data['edges'] = new_edges

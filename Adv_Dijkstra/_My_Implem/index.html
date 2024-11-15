@@ -12,7 +12,7 @@
 <body>
 
 <h2>Campus Map Routing</h2>
-<div>
+<div></div>
   <label for="startNode">From Node ID:</label>
   <input type="text" id="startNode" placeholder="e.g., Node_0">
   <button onclick="fetchMyLocation()">Fetch My Location</button>
@@ -20,7 +20,7 @@
   <label for="endNode">To Node ID:</label>
   <input type="text" id="endNode" placeholder="e.g., Node_2">
   
-  <!-- New Dropdowns for Architecture Type and Related Architectures -->
+  <!-- Architecture Type and Related Architectures -->
   <label for="arcTypeDropdown">Architecture Type:</label>
   <select id="arcTypeDropdown" onchange="populateArchitectureDropdown()">
     <option value="">Select Type</option>
@@ -29,6 +29,13 @@
   <label for="architectureDropdown">Architecture:</label>
   <select id="architectureDropdown" onchange="setEndNode()">
     <option value="">Select Architecture</option>
+  </select>
+
+  <!-- Transportation Dropdown -->
+  <label for="transportationDropdown">Transportation:</label>
+  <select id="transportationDropdown" onchange="updateGraphData()">
+    <option value="walk">Walk</option>
+    <option value="vehicle">Vehicle</option>
   </select>
 
   <button onclick="findRoute()">Find Route</button>

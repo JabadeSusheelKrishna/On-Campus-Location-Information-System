@@ -961,12 +961,6 @@
                 "weight": 7.83236092180361e-05,
                 "time": 5,
                 "passability": "Both"
-            },
-            {
-                "target": "T-Hub",
-                "weight": 0.0002591430481671479,
-                "time": 5,
-                "passability": "Walk"
             }
         ],
         "Node_6": [
@@ -2391,142 +2385,10 @@
                 "passability": "Both"
             },
             {
-                "target": "Admin_Block",
-                "weight": 0.0004870202633121994,
-                "time": 5,
-                "passability": "Walk"
-            },
-            {
                 "target": "Node_114",
                 "weight": 0.0006772469662855317,
                 "time": 5,
                 "passability": "Both"
-            }
-        ],
-        "T-Hub": [
-            {
-                "target": "Node_5",
-                "weight": 0.0002591430481671479,
-                "time": 5,
-                "passability": "Walk"
-            },
-            {
-                "target": "Vindhya_2",
-                "weight": 0.0001701255407757266,
-                "time": 5,
-                "passability": "Walk"
-            }
-        ],
-        "Vindhya_2": [
-            {
-                "target": "T-Hub",
-                "weight": 0.0001701255407757266,
-                "time": 5,
-                "passability": "Walk"
-            },
-            {
-                "target": "H105_E2",
-                "weight": 0.00012121425652329606,
-                "time": 5,
-                "passability": "Walk"
-            }
-        ],
-        "H105_E2": [
-            {
-                "target": "Vindhya_2",
-                "weight": 0.00012121425652329606,
-                "time": 5,
-                "passability": "Walk"
-            },
-            {
-                "target": "H105-E2",
-                "weight": 0.00015340204628658922,
-                "time": 5,
-                "passability": "Walk"
-            }
-        ],
-        "H105-E2": [
-            {
-                "target": "H105_E2",
-                "weight": 0.00015340204628658922,
-                "time": 5,
-                "passability": "Walk"
-            },
-            {
-                "target": "Vindhya_4",
-                "weight": 0.0002585286947967292,
-                "time": 5,
-                "passability": "Walk"
-            }
-        ],
-        "Vindhya_4": [
-            {
-                "target": "H105-E2",
-                "weight": 0.0002585286947967292,
-                "time": 5,
-                "passability": "Walk"
-            },
-            {
-                "target": "Academic_Block",
-                "weight": 2.3524964381348606e-05,
-                "time": 5,
-                "passability": "Walk"
-            }
-        ],
-        "Academic_Block": [
-            {
-                "target": "Vindhya_4",
-                "weight": 2.3524964381348606e-05,
-                "time": 5,
-                "passability": "Walk"
-            },
-            {
-                "target": "KRB",
-                "weight": 0.0002876922813121078,
-                "time": 5,
-                "passability": "Walk"
-            }
-        ],
-        "KRB": [
-            {
-                "target": "Academic_Block",
-                "weight": 0.0002876922813121078,
-                "time": 5,
-                "passability": "Walk"
-            },
-            {
-                "target": "Vindhya_6",
-                "weight": 0.0002202116582292697,
-                "time": 5,
-                "passability": "Walk"
-            }
-        ],
-        "Vindhya_6": [
-            {
-                "target": "KRB",
-                "weight": 0.0002202116582292697,
-                "time": 5,
-                "passability": "Walk"
-            },
-            {
-                "target": "Admin_Block",
-                "weight": 3.3597650193010926e-05,
-                "time": 5,
-                "passability": "Walk"
-            }
-        ],
-        "Admin_Block": [
-            {
-                "target": "Vindhya_6",
-                "weight": 3.3597650193010926e-05,
-                "time": 5,
-                "passability": "Walk"
-            },
-            {
-                "target": "Node_104",
-                "weight": 0.0004870202633121994,
-                "time": 5,
-                "passability": "Walk"
             }
         ],
         "Node_114": [
