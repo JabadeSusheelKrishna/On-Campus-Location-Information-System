@@ -113,6 +113,8 @@ function get_coords_from_graph(Nodes_path, graph_data) {
 function findRoute() {
   const startNode = document.getElementById("startNode").value;
   const endNode = document.getElementById("endNode").value;
+  // console.log("Start and End : ");
+  // console.log(path)
 
   if (!graphData || !graphData.nodes[startNode] || !graphData.nodes[endNode]) {
     alert("Invalid node IDs.");
@@ -223,4 +225,79 @@ function fetchMyLocation() {
   } else {
     alert("Location is not within any known building or entrance data not loaded.");
   }
+}
+
+let buildingData = null;
+fetch("IIIT_Entrances.geojson")
+  .then(response => response.json())
+  .then(data => {
+    buildingData = data;
+    populateArchitectureTypeDropdown();
+  })
+  .catch(error => console.error("Error loading buildings.geojson:", error));
+
+// Function to populate the Architecture Type dropdown
+function populateArchitectureTypeDropdown() {
+  const arcTypeDropdown = document.getElementById("arcTypeDropdown");
+  const arcTypes = new Set();
+
+  // Collect unique architecture types
+  buildingData.features.forEach(feature => {
+    if (feature.properties.arc_type) {
+      arcTypes.add(feature.properties.arc_type);
+    }
+  });
+
+  // Add options to the dropdown
+  arcTypes.forEach(type => {
+    const option = document.createElement("option");
+    option.value = type;
+    option.textContent = type;
+    arcTypeDropdown.appendChild(option);
+  });
+}
+
+// Function to populate the Architecture dropdown based on selected type
+function populateArchitectureDropdown() {
+  const selectedType = document.getElementById("arcTypeDropdown").value;
+  const architectureDropdown = document.getElementById("architectureDropdown");
+
+  // Clear the current options
+  architectureDropdown.innerHTML = '<option value="">Select Architecture</option>';
+
+  const startNode = document.getElementById("startNode").value;
+
+  if (!graphData || !graphData.nodes[startNode]) {
+    alert("Start node is not valid or graph data is not loaded.");
+    return;
+  }
+
+  const startCoords = graphData.nodes[startNode].coordinates;
+
+  buildingData.features.forEach(feature => {
+    if (feature.properties.arc_type === selectedType) {
+      const architectureName = feature.properties.name;
+
+      if (!graphData.nodes[architectureName]) return;
+
+      // Calculate shortest path distance using Dijkstra
+      const { path, totalTime } = dijkstra(graphData, startNode, architectureName);
+      // const graphDistance = path ? totalTime : "N/A";
+      const graphDistance = distance_calculator(get_coords_from_graph(path, graphData))
+      // console.log("hhhh");
+      // console.log(path)
+
+      // Create dropdown option with only graph distance
+      const option = document.createElement("option");
+      option.value = architectureName;
+      option.textContent = `${architectureName} - Distance: ${graphDistance}m`;
+      architectureDropdown.appendChild(option);
+    }
+  });
+}
+
+// Function to set the selected architecture as the end node
+function setEndNode() {
+  const selectedArchitecture = document.getElementById("architectureDropdown").value;
+  document.getElementById("endNode").value = selectedArchitecture;
 }
