@@ -1,0 +1,2487 @@
+{
+    "nodes": {
+        "Node_0": {
+            "id": "Node_0",
+            "coordinates": [
+                78.34949652456186,
+                17.44690683825023
+            ]
+        },
+        "Node_1": {
+            "id": "Node_1",
+            "coordinates": [
+                78.34929415190959,
+                17.447070450495744
+            ]
+        },
+        "Node_3": {
+            "id": "Node_3",
+            "coordinates": [
+                78.34907462903402,
+                17.446743225857915
+            ]
+        },
+        "Node_4": {
+            "id": "Node_4",
+            "coordinates": [
+                78.34921869092108,
+                17.446615608089857
+            ]
+        },
+        "Node_5": {
+            "id": "Node_5",
+            "coordinates": [
+                78.34881051557329,
+                17.446128041948768
+            ]
+        },
+        "Node_6": {
+            "id": "Node_6",
+            "coordinates": [
+                78.35100751905031,
+                17.445784608208683
+            ]
+        },
+        "Node_7": {
+            "id": "Node_7",
+            "coordinates": [
+                78.35111795602052,
+                17.4457922884626
+            ]
+        },
+        "Node_9": {
+            "id": "Node_9",
+            "coordinates": [
+                78.35146838163769,
+                17.446129451867577
+            ]
+        },
+        "Node_10": {
+            "id": "Node_10",
+            "coordinates": [
+                78.35094066873921,
+                17.445702371674855
+            ]
+        },
+        "Node_11": {
+            "id": "Node_11",
+            "coordinates": [
+                78.35095322602848,
+                17.445612277236336
+            ]
+        },
+        "Node_12": {
+            "id": "Node_12",
+            "coordinates": [
+                78.35101013275408,
+                17.44554084416093
+            ]
+        },
+        "Node_13": {
+            "id": "Node_13",
+            "coordinates": [
+                78.3485446960666,
+                17.447696677273356
+            ]
+        },
+        "Node_17": {
+            "id": "Node_17",
+            "coordinates": [
+                78.34775448491985,
+                17.446849298381338
+            ]
+        },
+        "Node_19": {
+            "id": "Node_19",
+            "coordinates": [
+                78.34729111119742,
+                17.446390107390172
+            ]
+        },
+        "Node_20": {
+            "id": "Node_20",
+            "coordinates": [
+                78.34726374608556,
+                17.446364001128686
+            ]
+        },
+        "Node_21": {
+            "id": "Node_21",
+            "coordinates": [
+                78.34722465306083,
+                17.446326706455224
+            ]
+        },
+        "Node_22": {
+            "id": "Node_22",
+            "coordinates": [
+                78.34738884377134,
+                17.446285682304577
+            ]
+        },
+        "Node_23": {
+            "id": "Node_23",
+            "coordinates": [
+                78.34730085341778,
+                17.446105236727377
+            ]
+        },
+        "Node_24": {
+            "id": "Node_24",
+            "coordinates": [
+                78.34732917059495,
+                17.445943149233173
+            ]
+        },
+        "Node_26": {
+            "id": "Node_26",
+            "coordinates": [
+                78.34756042755043,
+                17.445709022597157
+            ]
+        },
+        "Node_27": {
+            "id": "Node_27",
+            "coordinates": [
+                78.34779168450467,
+                17.445740539662154
+            ]
+        },
+        "Node_28": {
+            "id": "Node_28",
+            "coordinates": [
+                78.34797102663185,
+                17.445821583517343
+            ]
+        },
+        "Node_29": {
+            "id": "Node_29",
+            "coordinates": [
+                78.34697048634047,
+                17.446033197858966
+            ]
+        },
+        "Node_30": {
+            "id": "Node_30",
+            "coordinates": [
+                78.34633334983317,
+                17.445389349205172
+            ]
+        },
+        "Node_31": {
+            "id": "Node_31",
+            "coordinates": [
+                78.34620592253174,
+                17.4454208663242
+            ]
+        },
+        "Node_33": {
+            "id": "Node_33",
+            "coordinates": [
+                78.34608321476003,
+                17.4452497733226
+            ]
+        },
+        "Node_35": {
+            "id": "Node_35",
+            "coordinates": [
+                78.34625311782906,
+                17.44514171450176
+            ]
+        },
+        "Node_37": {
+            "id": "Node_37",
+            "coordinates": [
+                78.3463805451305,
+                17.445308305156644
+            ]
+        },
+        "Node_38": {
+            "id": "Node_38",
+            "coordinates": [
+                78.34634750842241,
+                17.445375841866223
+            ]
+        },
+        "Node_39": {
+            "id": "Node_39",
+            "coordinates": [
+                78.34714038940825,
+                17.44594765166555
+            ]
+        },
+        "Node_41": {
+            "id": "Node_41",
+            "coordinates": [
+                78.3481332510292,
+                17.44807785586896
+            ]
+        },
+        "Node_44": {
+            "id": "Node_44",
+            "coordinates": [
+                78.34701010375204,
+                17.446492320842594
+            ]
+        },
+        "Node_46": {
+            "id": "Node_46",
+            "coordinates": [
+                78.34671146345477,
+                17.446758642134895
+            ]
+        },
+        "Node_47": {
+            "id": "Node_47",
+            "coordinates": [
+                78.349308335513,
+                17.44375476312348
+            ]
+        },
+        "Node_49": {
+            "id": "Node_49",
+            "coordinates": [
+                78.34860718003131,
+                17.443048689539822
+            ]
+        },
+        "Node_50": {
+            "id": "Node_50",
+            "coordinates": [
+                78.3484448755218,
+                17.442838105661252
+            ]
+        },
+        "Node_51": {
+            "id": "Node_51",
+            "coordinates": [
+                78.34830853973403,
+                17.442633715193693
+            ]
+        },
+        "Node_52": {
+            "id": "Node_52",
+            "coordinates": [
+                78.34782162620542,
+                17.442844299308263
+            ]
+        },
+        "Node_53": {
+            "id": "Node_53",
+            "coordinates": [
+                78.34757492335177,
+                17.442949591274825
+            ]
+        },
+        "Node_54": {
+            "id": "Node_54",
+            "coordinates": [
+                78.3475879077127,
+                17.443327403123575
+            ]
+        },
+        "Node_55": {
+            "id": "Node_55",
+            "coordinates": [
+                78.34752947808863,
+                17.44372379504162
+            ]
+        },
+        "Node_56": {
+            "id": "Node_56",
+            "coordinates": [
+                78.34749701718636,
+                17.44396534594425
+            ]
+        },
+        "Node_57": {
+            "id": "Node_57",
+            "coordinates": [
+                78.34760089207356,
+                17.44411399249431
+            ]
+        },
+        "Node_58": {
+            "id": "Node_58",
+            "coordinates": [
+                78.34773722786133,
+                17.444144960509846
+            ]
+        },
+        "Node_59": {
+            "id": "Node_59",
+            "coordinates": [
+                78.3497186790334,
+                17.446714099371533
+            ]
+        },
+        "Node_60": {
+            "id": "Node_60",
+            "coordinates": [
+                78.34967597670737,
+                17.44664539071772
+            ]
+        },
+        "Node_61": {
+            "id": "Node_61",
+            "coordinates": [
+                78.34966410523032,
+                17.446574607277896
+            ]
+        },
+        "Node_62": {
+            "id": "Node_62",
+            "coordinates": [
+                78.34966707309877,
+                17.446498161132
+            ]
+        },
+        "Node_64": {
+            "id": "Node_64",
+            "coordinates": [
+                78.34978578786814,
+                17.44636508813504
+            ]
+        },
+        "Node_65": {
+            "id": "Node_65",
+            "coordinates": [
+                78.34988372755333,
+                17.446331112034784
+            ]
+        },
+        "Node_66": {
+            "id": "Node_66",
+            "coordinates": [
+                78.35000837806126,
+                17.446370750817806
+            ]
+        },
+        "Node_67": {
+            "id": "Node_67",
+            "coordinates": [
+                78.35006781894953,
+                17.44642681923773
+            ]
+        },
+        "Node_68": {
+            "id": "Node_68",
+            "coordinates": [
+                78.34956347012962,
+                17.446978981576578
+            ]
+        },
+        "Node_69": {
+            "id": "Node_69",
+            "coordinates": [
+                78.34978823410472,
+                17.446793959682267
+            ]
+        },
+        "Node_70": {
+            "id": "Node_70",
+            "coordinates": [
+                78.35021817493208,
+                17.446435067811024
+            ]
+        },
+        "Node_71": {
+            "id": "Node_71",
+            "coordinates": [
+                78.35015510392822,
+                17.446360203490414
+            ]
+        },
+        "Node_72": {
+            "id": "Node_72",
+            "coordinates": [
+                78.35010262833566,
+                17.4462992014181
+            ]
+        },
+        "Node_73": {
+            "id": "Node_73",
+            "coordinates": [
+                78.35007844416322,
+                17.44620691475356
+            ]
+        },
+        "Node_74": {
+            "id": "Node_74",
+            "coordinates": [
+                78.35009725407531,
+                17.446130009164875
+            ]
+        },
+        "Node_76": {
+            "id": "Node_76",
+            "coordinates": [
+                78.3502020521509,
+                17.446047976500452
+            ]
+        },
+        "Node_77": {
+            "id": "Node_77",
+            "coordinates": [
+                78.35031222448833,
+                17.44604028593622
+            ]
+        },
+        "Node_78": {
+            "id": "Node_78",
+            "coordinates": [
+                78.3503982126532,
+                17.446088992836962
+            ]
+        },
+        "Node_79": {
+            "id": "Node_79",
+            "coordinates": [
+                78.35044314435959,
+                17.446122884691206
+            ]
+        },
+        "Node_80": {
+            "id": "Node_80",
+            "coordinates": [
+                78.35058631178924,
+                17.44613513622396
+            ]
+        },
+        "Node_81": {
+            "id": "Node_81",
+            "coordinates": [
+                78.35053042933833,
+                17.446060432324813
+            ]
+        },
+        "Node_82": {
+            "id": "Node_82",
+            "coordinates": [
+                78.35047613945187,
+                17.44597876143068
+            ]
+        },
+        "Node_83": {
+            "id": "Node_83",
+            "coordinates": [
+                78.35046270380161,
+                17.445912109838474
+            ]
+        },
+        "Node_84": {
+            "id": "Node_84",
+            "coordinates": [
+                78.35047882658137,
+                17.445824950027045
+            ]
+        },
+        "Node_86": {
+            "id": "Node_86",
+            "coordinates": [
+                78.350602434569,
+                17.445696773758513
+            ]
+        },
+        "Node_87": {
+            "id": "Node_87",
+            "coordinates": [
+                78.3507287296876,
+                17.44566601144102
+            ]
+        },
+        "Node_88": {
+            "id": "Node_88",
+            "coordinates": [
+                78.35082277924386,
+                17.445686519653023
+            ]
+        },
+        "Node_89": {
+            "id": "Node_89",
+            "coordinates": [
+                78.35090139049936,
+                17.445735679672254
+            ]
+        },
+        "Node_90": {
+            "id": "Node_90",
+            "coordinates": [
+                78.35062376604759,
+                17.445117959781328
+            ]
+        },
+        "Node_92": {
+            "id": "Node_92",
+            "coordinates": [
+                78.35103355659402,
+                17.444741663348083
+            ]
+        },
+        "Node_93": {
+            "id": "Node_93",
+            "coordinates": [
+                78.3480344851285,
+                17.446568505925356
+            ]
+        },
+        "Node_94": {
+            "id": "Node_94",
+            "coordinates": [
+                78.34834442550806,
+                17.446326143320945
+            ]
+        },
+        "Node_95": {
+            "id": "Node_95",
+            "coordinates": [
+                78.34859339401021,
+                17.44619042012158
+            ]
+        },
+        "Node_96": {
+            "id": "Node_96",
+            "coordinates": [
+                78.34874557510324,
+                17.44608425470051
+            ]
+        },
+        "Node_97": {
+            "id": "Node_97",
+            "coordinates": [
+                78.34935511571035,
+                17.447148376277283
+            ]
+        },
+        "Node_99": {
+            "id": "Node_99",
+            "coordinates": [
+                78.34862104575166,
+                17.44776091622674
+            ]
+        },
+        "Node_100": {
+            "id": "Node_100",
+            "coordinates": [
+                78.35120780874234,
+                17.445720855457708
+            ]
+        },
+        "Node_101": {
+            "id": "Node_101",
+            "coordinates": [
+                78.35155715137512,
+                17.446002095816638
+            ]
+        },
+        "Node_102": {
+            "id": "Node_102",
+            "coordinates": [
+                78.35121003817244,
+                17.44563443212087
+            ]
+        },
+        "Node_103": {
+            "id": "Node_103",
+            "coordinates": [
+                78.35115251224704,
+                17.44554379393442
+            ]
+        },
+        "Node_104": {
+            "id": "Node_104",
+            "coordinates": [
+                78.350339232426,
+                17.444817939863
+            ]
+        },
+        "Node_114": {
+            "id": "Node_114",
+            "coordinates": [
+                78.34986047015411,
+                17.444338930322004
+            ]
+        },
+        "Node_115": {
+            "id": "Node_115",
+            "coordinates": [
+                78.34916385216235,
+                17.443807111660576
+            ]
+        },
+        "Node_116": {
+            "id": "Node_116",
+            "coordinates": [
+                78.3488189372988,
+                17.443900550269007
+            ]
+        },
+        "Node_117": {
+            "id": "Node_117",
+            "coordinates": [
+                78.34855454300367,
+                17.443624161346875
+            ]
+        },
+        "Node_118": {
+            "id": "Node_118",
+            "coordinates": [
+                78.3481879228973,
+                17.443942053514775
+            ]
+        },
+        "Node_120": {
+            "id": "Node_120",
+            "coordinates": [
+                78.34820924567907,
+                17.443243911186258
+            ]
+        },
+        "Nilgiri-1": {
+            "id": "Nilgiri-1",
+            "coordinates": [
+                78.349084919169,
+                17.446844665558856
+            ]
+        },
+        "Bakul_Nivas": {
+            "id": "Bakul_Nivas",
+            "coordinates": [
+                78.34826309463648,
+                17.447941599498563
+            ]
+        },
+        "Nilgiri-2": {
+            "id": "Nilgiri-2",
+            "coordinates": [
+                78.34890466039337,
+                17.44740953181477
+            ]
+        },
+        "Warehouse": {
+            "id": "Warehouse",
+            "coordinates": [
+                78.348029376142,
+                17.448207918673702
+            ]
+        },
+        "Vindhya-1": {
+            "id": "Vindhya-1",
+            "coordinates": [
+                78.34970862326861,
+                17.446421714954027
+            ]
+        },
+        "Vindhya-3": {
+            "id": "Vindhya-3",
+            "coordinates": [
+                78.35013487389665,
+                17.446088992836962
+            ]
+        },
+        "Vindhya-5": {
+            "id": "Vindhya-5",
+            "coordinates": [
+                78.35052988205581,
+                17.44573779017469
+            ]
+        },
+        "PEC": {
+            "id": "PEC",
+            "coordinates": [
+                78.3483795006373,
+                17.447524375573607
+            ]
+        },
+        "Parijat": {
+            "id": "Parijat",
+            "coordinates": [
+                78.34804544051309,
+                17.447171416744112
+            ]
+        },
+        "Kadamb": {
+            "id": "Kadamb",
+            "coordinates": [
+                78.34776885309748,
+                17.446873285938864
+            ]
+        },
+        "KadambNivas_hostel": {
+            "id": "KadambNivas_hostel",
+            "coordinates": [
+                78.34749226568175,
+                17.4465922886409
+            ]
+        },
+        "Tantra": {
+            "id": "Tantra",
+            "coordinates": [
+                78.34742828071927,
+                17.445799071338612
+            ]
+        },
+        "OBH_E1": {
+            "id": "OBH_E1",
+            "coordinates": [
+                78.34635222795214,
+                17.445186739017515
+            ]
+        },
+        "OBH_E2": {
+            "id": "OBH_E2",
+            "coordinates": [
+                78.34611153193839,
+                17.445375841866223
+            ]
+        },
+        "FG_Entry": {
+            "id": "FG_Entry",
+            "coordinates": [
+                78.3468413070621,
+                17.44662857829617
+            ]
+        },
+        "BBC": {
+            "id": "BBC",
+            "coordinates": [
+                78.34804885268335,
+                17.44815217748267
+            ]
+        },
+        "Power_House": {
+            "id": "Power_House",
+            "coordinates": [
+                78.3509206971271,
+                17.444844204907028
+            ]
+        },
+        "Faculty_H1": {
+            "id": "Faculty_H1",
+            "coordinates": [
+                78.3487759767213,
+                17.44320972410661
+            ]
+        },
+        "Faculty_H2": {
+            "id": "Faculty_H2",
+            "coordinates": [
+                78.34849972008698,
+                17.444208208573585
+            ]
+        },
+        "H105-E2": {
+            "id": "H105-E2",
+            "coordinates": [
+                78.34933983734118,
+                17.445665574440085
+            ]
+        },
+        "H105_E2": {
+            "id": "H105_E2",
+            "coordinates": [
+                78.34922618388526,
+                17.445768603949276
+            ]
+        },
+        "Vindhya_2": {
+            "id": "Vindhya_2",
+            "coordinates": [
+                78.34912782723978,
+                17.445839447906494
+            ]
+        },
+        "Vindhya_4": {
+            "id": "Vindhya_4",
+            "coordinates": [
+                78.34953663012266,
+                17.445497915001965
+            ]
+        },
+        "Vindhya_6": {
+            "id": "Vindhya_6",
+            "coordinates": [
+                78.34994220846153,
+                17.445154549641146
+            ]
+        },
+        "Admin_Block": {
+            "id": "Admin_Block",
+            "coordinates": [
+                78.34996610399423,
+                17.445130931732365
+            ]
+        },
+        "KRB": {
+            "id": "KRB",
+            "coordinates": [
+                78.34977322264467,
+                17.445295747970178
+            ]
+        },
+        "T-Hub": {
+            "id": "T-Hub",
+            "coordinates": [
+                78.3489964412829,
+                17.445947523944355
+            ]
+        },
+        "Academic_Block": {
+            "id": "Academic_Block",
+            "coordinates": [
+                78.34955501004595,
+                17.44548323159742
+            ]
+        },
+        "Maingate_Exit": {
+            "id": "Maingate_Exit",
+            "coordinates": [
+                78.35136654855279,
+                17.446009444625588
+            ]
+        },
+        "South_Mess": {
+            "id": "South_Mess",
+            "coordinates": [
+                78.34612569052757,
+                17.445173231664796
+            ]
+        }
+    },
+    "edges": {
+        "Node_0": [
+            {
+                "target": "Node_1",
+                "weight": 0.0002602376937888399,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Node_4",
+                "weight": 0.0004025003580856632,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Node_68",
+                "weight": 9.841935063970791e-05,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Node_1",
+                "weight": 0.0002602376937888399,
+                "time": 5,
+                "passability": "Both"
+            }
+        ],
+        "Node_1": [
+            {
+                "target": "Node_0",
+                "weight": 0.0002602376937888399,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Nilgiri-1",
+                "weight": 0.000307826537938246,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Node_97",
+                "weight": 9.893943820355922e-05,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Nilgiri-2",
+                "weight": 0.0005164104783186232,
+                "time": 5,
+                "passability": "Both"
+            }
+        ],
+        "Nilgiri-1": [
+            {
+                "target": "Node_1",
+                "weight": 0.000307826537938246,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Node_3",
+                "weight": 0.00010196028543009648,
+                "time": 5,
+                "passability": "Both"
+            }
+        ],
+        "Node_3": [
+            {
+                "target": "Nilgiri-1",
+                "weight": 0.00010196028543009648,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Node_4",
+                "weight": 0.00019245810460011455,
+                "time": 5,
+                "passability": "Both"
+            }
+        ],
+        "Node_4": [
+            {
+                "target": "Node_3",
+                "weight": 0.00019245810460011455,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Node_5",
+                "weight": 0.0006358677979557456,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Node_0",
+                "weight": 0.0004025003580856632,
+                "time": 5,
+                "passability": "Both"
+            }
+        ],
+        "Node_5": [
+            {
+                "target": "Node_4",
+                "weight": 0.0006358677979557456,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Node_96",
+                "weight": 7.83236092180361e-05,
+                "time": 5,
+                "passability": "Both"
+            }
+        ],
+        "Node_6": [
+            {
+                "target": "Node_7",
+                "weight": 0.00011070370674875968,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Node_10",
+                "weight": 0.00010598024150860754,
+                "time": 5,
+                "passability": "Both"
+            }
+        ],
+        "Node_7": [
+            {
+                "target": "Node_6",
+                "weight": 0.00011070370674875968,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Maingate_Exit",
+                "weight": 0.0003300833928360844,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Node_100",
+                "weight": 0.0001147875681756153,
+                "time": 5,
+                "passability": "Both"
+            }
+        ],
+        "Maingate_Exit": [
+            {
+                "target": "Node_7",
+                "weight": 0.0003300833928360844,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Node_9",
+                "weight": 0.0001573903278783434,
+                "time": 5,
+                "passability": "Both"
+            }
+        ],
+        "Node_9": [
+            {
+                "target": "Maingate_Exit",
+                "weight": 0.0001573903278783434,
+                "time": 5,
+                "passability": "Both"
+            }
+        ],
+        "Node_10": [
+            {
+                "target": "Node_11",
+                "weight": 9.096534156401593e-05,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Node_6",
+                "weight": 0.00010598024150860754,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Node_89",
+                "weight": 5.149954190750289e-05,
+                "time": 5,
+                "passability": "Both"
+            }
+        ],
+        "Node_11": [
+            {
+                "target": "Node_10",
+                "weight": 9.096534156401593e-05,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Node_12",
+                "weight": 9.132940206068603e-05,
+                "time": 5,
+                "passability": "Both"
+            }
+        ],
+        "Node_12": [
+            {
+                "target": "Node_11",
+                "weight": 9.132940206068603e-05,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Node_103",
+                "weight": 0.00014241004591733706,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Node_90",
+                "weight": 0.0005728092443375892,
+                "time": 5,
+                "passability": "Both"
+            }
+        ],
+        "Node_13": [
+            {
+                "target": "PEC",
+                "weight": 0.0002386994042707263,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Bakul_Nivas",
+                "weight": 0.00037321074722526367,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Node_99",
+                "weight": 9.977934425876697e-05,
+                "time": 5,
+                "passability": "Both"
+            }
+        ],
+        "PEC": [
+            {
+                "target": "Node_13",
+                "weight": 0.0002386994042707263,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Parijat",
+                "weight": 0.00048597952827376907,
+                "time": 5,
+                "passability": "Both"
+            }
+        ],
+        "Parijat": [
+            {
+                "target": "PEC",
+                "weight": 0.00048597952827376907,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Kadamb",
+                "weight": 0.0004066725654789553,
+                "time": 5,
+                "passability": "Both"
+            }
+        ],
+        "Kadamb": [
+            {
+                "target": "Parijat",
+                "weight": 0.0004066725654789553,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Node_17",
+                "weight": 2.7961535088349493e-05,
+                "time": 5,
+                "passability": "Both"
+            }
+        ],
+        "Node_17": [
+            {
+                "target": "Kadamb",
+                "weight": 2.7961535088349493e-05,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "KadambNivas_hostel",
+                "weight": 0.00036716881064028316,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Node_93",
+                "weight": 0.00039654069170623224,
+                "time": 5,
+                "passability": "Both"
+            }
+        ],
+        "KadambNivas_hostel": [
+            {
+                "target": "Node_17",
+                "weight": 0.00036716881064028316,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Node_19",
+                "weight": 0.0002852023574796844,
+                "time": 5,
+                "passability": "Both"
+            }
+        ],
+        "Node_19": [
+            {
+                "target": "KadambNivas_hostel",
+                "weight": 0.0002852023574796844,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Node_20",
+                "weight": 3.782044732719476e-05,
+                "time": 5,
+                "passability": "Both"
+            }
+        ],
+        "Node_20": [
+            {
+                "target": "Node_19",
+                "weight": 3.782044732719476e-05,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Node_21",
+                "weight": 5.402922589434652e-05,
+                "time": 5,
+                "passability": "Both"
+            }
+        ],
+        "Node_21": [
+            {
+                "target": "Node_20",
+                "weight": 5.402922589434652e-05,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Node_22",
+                "weight": 0.00016923820594961573,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Node_29",
+                "weight": 0.00038826282054735744,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Node_44",
+                "weight": 0.00027103418826394894,
+                "time": 5,
+                "passability": "Both"
+            }
+        ],
+        "Node_22": [
+            {
+                "target": "Node_21",
+                "weight": 0.00016923820594961573,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Node_23",
+                "weight": 0.00020075584338034798,
+                "time": 5,
+                "passability": "Both"
+            }
+        ],
+        "Node_23": [
+            {
+                "target": "Node_22",
+                "weight": 0.00020075584338034798,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Node_24",
+                "weight": 0.0001645424513611525,
+                "time": 5,
+                "passability": "Both"
+            }
+        ],
+        "Node_24": [
+            {
+                "target": "Node_23",
+                "weight": 0.0001645424513611525,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Tantra",
+                "weight": 0.00017487497375167347,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Node_39",
+                "weight": 0.00018883487057943157,
+                "time": 5,
+                "passability": "Both"
+            }
+        ],
+        "Tantra": [
+            {
+                "target": "Node_24",
+                "weight": 0.00017487497375167347,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Node_26",
+                "weight": 0.0001599111028795129,
+                "time": 5,
+                "passability": "Both"
+            }
+        ],
+        "Node_26": [
+            {
+                "target": "Tantra",
+                "weight": 0.0001599111028795129,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Node_27",
+                "weight": 0.0002333947391629347,
+                "time": 5,
+                "passability": "Both"
+            }
+        ],
+        "Node_27": [
+            {
+                "target": "Node_26",
+                "weight": 0.0002333947391629347,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Node_28",
+                "weight": 0.00019680372213553665,
+                "time": 5,
+                "passability": "Both"
+            }
+        ],
+        "Node_28": [
+            {
+                "target": "Node_27",
+                "weight": 0.00019680372213553665,
+                "time": 5,
+                "passability": "Both"
+            }
+        ],
+        "Node_29": [
+            {
+                "target": "Node_21",
+                "weight": 0.00038826282054735744,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Node_30",
+                "weight": 0.0009058057285750729,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Node_39",
+                "weight": 0.00019022408798896305,
+                "time": 5,
+                "passability": "Both"
+            }
+        ],
+        "Node_30": [
+            {
+                "target": "Node_29",
+                "weight": 0.0009058057285750729,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Node_31",
+                "weight": 0.00013126707867168523,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Node_38",
+                "weight": 1.956818475695922e-05,
+                "time": 5,
+                "passability": "Both"
+            }
+        ],
+        "Node_31": [
+            {
+                "target": "Node_30",
+                "weight": 0.00013126707867168523,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "OBH_E2",
+                "weight": 0.00010457908934548591,
+                "time": 5,
+                "passability": "Both"
+            }
+        ],
+        "OBH_E2": [
+            {
+                "target": "Node_31",
+                "weight": 0.00010457908934548591,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Node_33",
+                "weight": 0.000129209675649358,
+                "time": 5,
+                "passability": "Both"
+            }
+        ],
+        "Node_33": [
+            {
+                "target": "OBH_E2",
+                "weight": 0.000129209675649358,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "South_Mess",
+                "weight": 8.753751314661422e-05,
+                "time": 5,
+                "passability": "Both"
+            }
+        ],
+        "South_Mess": [
+            {
+                "target": "Node_33",
+                "weight": 8.753751314661422e-05,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Node_35",
+                "weight": 0.0001312670892938823,
+                "time": 5,
+                "passability": "Both"
+            }
+        ],
+        "Node_35": [
+            {
+                "target": "South_Mess",
+                "weight": 0.0001312670892938823,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "OBH_E1",
+                "weight": 0.00010885781329252056,
+                "time": 5,
+                "passability": "Both"
+            }
+        ],
+        "OBH_E1": [
+            {
+                "target": "Node_35",
+                "weight": 0.00010885781329252056,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Node_37",
+                "weight": 0.00012482062639245588,
+                "time": 5,
+                "passability": "Both"
+            }
+        ],
+        "Node_37": [
+            {
+                "target": "OBH_E1",
+                "weight": 0.00012482062639245588,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Node_38",
+                "weight": 7.518398248426163e-05,
+                "time": 5,
+                "passability": "Both"
+            }
+        ],
+        "Node_38": [
+            {
+                "target": "Node_37",
+                "weight": 7.518398248426163e-05,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Node_30",
+                "weight": 1.956818475695922e-05,
+                "time": 5,
+                "passability": "Both"
+            }
+        ],
+        "Node_39": [
+            {
+                "target": "Node_29",
+                "weight": 0.00019022408798896305,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Node_24",
+                "weight": 0.00018883487057943157,
+                "time": 5,
+                "passability": "Both"
+            }
+        ],
+        "Bakul_Nivas": [
+            {
+                "target": "Node_13",
+                "weight": 0.00037321074722526367,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Node_41",
+                "weight": 0.00018821572948573832,
+                "time": 5,
+                "passability": "Both"
+            }
+        ],
+        "Node_41": [
+            {
+                "target": "Bakul_Nivas",
+                "weight": 0.00018821572948573832,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "BBC",
+                "weight": 0.00011245791677904745,
+                "time": 5,
+                "passability": "Both"
+            }
+        ],
+        "BBC": [
+            {
+                "target": "Node_41",
+                "weight": 0.00011245791677904745,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Warehouse",
+                "weight": 5.9045880812743646e-05,
+                "time": 5,
+                "passability": "Both"
+            }
+        ],
+        "Warehouse": [
+            {
+                "target": "BBC",
+                "weight": 5.9045880812743646e-05,
+                "time": 5,
+                "passability": "Both"
+            }
+        ],
+        "Node_44": [
+            {
+                "target": "Node_21",
+                "weight": 0.00027103418826394894,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "FG_Entry",
+                "weight": 0.0002169295189404184,
+                "time": 5,
+                "passability": "Both"
+            }
+        ],
+        "FG_Entry": [
+            {
+                "target": "Node_44",
+                "weight": 0.0002169295189404184,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Node_46",
+                "weight": 0.00018378238357057104,
+                "time": 5,
+                "passability": "Both"
+            }
+        ],
+        "Node_46": [
+            {
+                "target": "FG_Entry",
+                "weight": 0.00018378238357057104,
+                "time": 5,
+                "passability": "Both"
+            }
+        ],
+        "Node_47": [
+            {
+                "target": "Faculty_H1",
+                "weight": 0.0007618880580592925,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Node_114",
+                "weight": 0.0008038059328893023,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Node_115",
+                "weight": 0.00015367435684556996,
+                "time": 5,
+                "passability": "Both"
+            }
+        ],
+        "Faculty_H1": [
+            {
+                "target": "Node_47",
+                "weight": 0.0007618880580592925,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Node_49",
+                "weight": 0.0002332904932742712,
+                "time": 5,
+                "passability": "Both"
+            }
+        ],
+        "Node_49": [
+            {
+                "target": "Faculty_H1",
+                "weight": 0.0002332904932742712,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Node_50",
+                "weight": 0.00026587275851043394,
+                "time": 5,
+                "passability": "Both"
+            }
+        ],
+        "Node_50": [
+            {
+                "target": "Node_49",
+                "weight": 0.00026587275851043394,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Node_51",
+                "weight": 0.0002456886449479753,
+                "time": 5,
+                "passability": "Both"
+            }
+        ],
+        "Node_51": [
+            {
+                "target": "Node_50",
+                "weight": 0.0002456886449479753,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Node_52",
+                "weight": 0.0005305001919515472,
+                "time": 5,
+                "passability": "Both"
+            }
+        ],
+        "Node_52": [
+            {
+                "target": "Node_51",
+                "weight": 0.0005305001919515472,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Node_53",
+                "weight": 0.000268232541312333,
+                "time": 5,
+                "passability": "Both"
+            }
+        ],
+        "Node_53": [
+            {
+                "target": "Node_52",
+                "weight": 0.000268232541312333,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Node_54",
+                "weight": 0.0003780349014107817,
+                "time": 5,
+                "passability": "Both"
+            }
+        ],
+        "Node_54": [
+            {
+                "target": "Node_53",
+                "weight": 0.0003780349014107817,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Node_55",
+                "weight": 0.0004006751472943759,
+                "time": 5,
+                "passability": "Both"
+            }
+        ],
+        "Node_55": [
+            {
+                "target": "Node_54",
+                "weight": 0.0004006751472943759,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Node_56",
+                "weight": 0.00024372227788516544,
+                "time": 5,
+                "passability": "Both"
+            }
+        ],
+        "Node_56": [
+            {
+                "target": "Node_55",
+                "weight": 0.00024372227788516544,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Node_57",
+                "weight": 0.0001813443934498453,
+                "time": 5,
+                "passability": "Both"
+            }
+        ],
+        "Node_57": [
+            {
+                "target": "Node_56",
+                "weight": 0.0001813443934498453,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Node_58",
+                "weight": 0.0001398086728845749,
+                "time": 5,
+                "passability": "Both"
+            }
+        ],
+        "Node_58": [
+            {
+                "target": "Node_57",
+                "weight": 0.0001398086728845749,
+                "time": 5,
+                "passability": "Both"
+            }
+        ],
+        "Node_59": [
+            {
+                "target": "Node_60",
+                "weight": 8.089726668441638e-05,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Node_69",
+                "weight": 0.00010590362211431614,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Node_0",
+                "weight": 0.00029411032723740665,
+                "time": 5,
+                "passability": "Both"
+            }
+        ],
+        "Node_60": [
+            {
+                "target": "Node_59",
+                "weight": 8.089726668441638e-05,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Node_61",
+                "weight": 7.177205111211982e-05,
+                "time": 5,
+                "passability": "Both"
+            }
+        ],
+        "Node_61": [
+            {
+                "target": "Node_60",
+                "weight": 7.177205111211982e-05,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Node_62",
+                "weight": 7.650373497861736e-05,
+                "time": 5,
+                "passability": "Both"
+            }
+        ],
+        "Node_62": [
+            {
+                "target": "Node_61",
+                "weight": 7.650373497861736e-05,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Vindhya-1",
+                "weight": 8.70082452420016e-05,
+                "time": 5,
+                "passability": "Both"
+            }
+        ],
+        "Vindhya-1": [
+            {
+                "target": "Node_62",
+                "weight": 8.70082452420016e-05,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Node_64",
+                "weight": 9.571296698781055e-05,
+                "time": 5,
+                "passability": "Both"
+            }
+        ],
+        "Node_64": [
+            {
+                "target": "Vindhya-1",
+                "weight": 9.571296698781055e-05,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Node_65",
+                "weight": 0.00010366560337798628,
+                "time": 5,
+                "passability": "Both"
+            }
+        ],
+        "Node_65": [
+            {
+                "target": "Node_64",
+                "weight": 0.00010366560337798628,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Node_66",
+                "weight": 0.00013080130827396676,
+                "time": 5,
+                "passability": "Both"
+            }
+        ],
+        "Node_66": [
+            {
+                "target": "Node_65",
+                "weight": 0.00013080130827396676,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Node_67",
+                "weight": 8.171222007974363e-05,
+                "time": 5,
+                "passability": "Both"
+            }
+        ],
+        "Node_67": [
+            {
+                "target": "Node_66",
+                "weight": 8.171222007974363e-05,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Node_59",
+                "weight": 0.0004521377625351355,
+                "time": 5,
+                "passability": "Both"
+            }
+        ],
+        "Node_68": [
+            {
+                "target": "Node_0",
+                "weight": 9.841935063970791e-05,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Node_69",
+                "weight": 0.0002911218746091088,
+                "time": 5,
+                "passability": "Both"
+            }
+        ],
+        "Node_69": [
+            {
+                "target": "Node_59",
+                "weight": 0.00010590362211431614,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Node_70",
+                "weight": 0.0005600468643564949,
+                "time": 5,
+                "passability": "Both"
+            }
+        ],
+        "Node_70": [
+            {
+                "target": "Node_71",
+                "weight": 9.789084752336606e-05,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Node_80",
+                "weight": 0.0004748512425177101,
+                "time": 5,
+                "passability": "Both"
+            }
+        ],
+        "Node_71": [
+            {
+                "target": "Node_70",
+                "weight": 9.789084752336606e-05,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Node_72",
+                "weight": 8.046701585457355e-05,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Node_67",
+                "weight": 0.00010980129915101613,
+                "time": 5,
+                "passability": "Both"
+            }
+        ],
+        "Node_72": [
+            {
+                "target": "Node_71",
+                "weight": 8.046701585457355e-05,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Node_73",
+                "weight": 9.540284402862228e-05,
+                "time": 5,
+                "passability": "Both"
+            }
+        ],
+        "Node_73": [
+            {
+                "target": "Node_72",
+                "weight": 9.540284402862228e-05,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Node_74",
+                "weight": 7.917248489137872e-05,
+                "time": 5,
+                "passability": "Both"
+            }
+        ],
+        "Node_74": [
+            {
+                "target": "Node_73",
+                "weight": 7.917248489137872e-05,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Vindhya-3",
+                "weight": 5.5655997998639e-05,
+                "time": 5,
+                "passability": "Both"
+            }
+        ],
+        "Vindhya-3": [
+            {
+                "target": "Node_74",
+                "weight": 5.5655997998639e-05,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Node_76",
+                "weight": 7.870995937955214e-05,
+                "time": 5,
+                "passability": "Both"
+            }
+        ],
+        "Node_76": [
+            {
+                "target": "Vindhya-3",
+                "weight": 7.870995937955214e-05,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Node_77",
+                "weight": 0.0001104404306075521,
+                "time": 5,
+                "passability": "Both"
+            }
+        ],
+        "Node_77": [
+            {
+                "target": "Node_76",
+                "weight": 0.0001104404306075521,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Node_78",
+                "weight": 9.882472705499019e-05,
+                "time": 5,
+                "passability": "Both"
+            }
+        ],
+        "Node_78": [
+            {
+                "target": "Node_77",
+                "weight": 9.882472705499019e-05,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Node_79",
+                "weight": 5.6280689607269925e-05,
+                "time": 5,
+                "passability": "Both"
+            }
+        ],
+        "Node_79": [
+            {
+                "target": "Node_78",
+                "weight": 5.6280689607269925e-05,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Node_71",
+                "weight": 0.0003732124094427232,
+                "time": 5,
+                "passability": "Both"
+            }
+        ],
+        "Node_80": [
+            {
+                "target": "Node_81",
+                "weight": 9.329266244988085e-05,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Node_6",
+                "weight": 0.0005479830711533903,
+                "time": 5,
+                "passability": "Both"
+            }
+        ],
+        "Node_81": [
+            {
+                "target": "Node_80",
+                "weight": 9.329266244988085e-05,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Node_82",
+                "weight": 9.806898959769652e-05,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Node_79",
+                "weight": 0.00010732644400589617,
+                "time": 5,
+                "passability": "Both"
+            }
+        ],
+        "Node_82": [
+            {
+                "target": "Node_81",
+                "weight": 9.806898959769652e-05,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Node_83",
+                "weight": 6.799228957420947e-05,
+                "time": 5,
+                "passability": "Both"
+            }
+        ],
+        "Node_83": [
+            {
+                "target": "Node_82",
+                "weight": 6.799228957420947e-05,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Node_84",
+                "weight": 8.863846092588713e-05,
+                "time": 5,
+                "passability": "Both"
+            }
+        ],
+        "Node_84": [
+            {
+                "target": "Node_83",
+                "weight": 8.863846092588713e-05,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Vindhya-5",
+                "weight": 0.00010101238207956574,
+                "time": 5,
+                "passability": "Both"
+            }
+        ],
+        "Vindhya-5": [
+            {
+                "target": "Node_84",
+                "weight": 0.00010101238207956574,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Node_86",
+                "weight": 8.334394738614399e-05,
+                "time": 5,
+                "passability": "Both"
+            }
+        ],
+        "Node_86": [
+            {
+                "target": "Vindhya-5",
+                "weight": 8.334394738614399e-05,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Node_87",
+                "weight": 0.0001299876038743717,
+                "time": 5,
+                "passability": "Both"
+            }
+        ],
+        "Node_87": [
+            {
+                "target": "Node_86",
+                "weight": 0.0001299876038743717,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Node_88",
+                "weight": 9.625957506130954e-05,
+                "time": 5,
+                "passability": "Both"
+            }
+        ],
+        "Node_88": [
+            {
+                "target": "Node_87",
+                "weight": 9.625957506130954e-05,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Node_89",
+                "weight": 9.271697246219531e-05,
+                "time": 5,
+                "passability": "Both"
+            }
+        ],
+        "Node_89": [
+            {
+                "target": "Node_88",
+                "weight": 9.271697246219531e-05,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Node_81",
+                "weight": 0.0004930278575633159,
+                "time": 5,
+                "passability": "Both"
+            }
+        ],
+        "Node_90": [
+            {
+                "target": "Power_House",
+                "weight": 0.0004038685394757253,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Node_12",
+                "weight": 0.0005728092443375892,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Node_104",
+                "weight": 0.0004134867993196152,
+                "time": 5,
+                "passability": "Both"
+            }
+        ],
+        "Power_House": [
+            {
+                "target": "Node_90",
+                "weight": 0.0004038685394757253,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Node_92",
+                "weight": 0.00015248616522587206,
+                "time": 5,
+                "passability": "Both"
+            }
+        ],
+        "Node_92": [
+            {
+                "target": "Power_House",
+                "weight": 0.00015248616522587206,
+                "time": 5,
+                "passability": "Both"
+            }
+        ],
+        "Node_93": [
+            {
+                "target": "Node_17",
+                "weight": 0.00039654069170623224,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Node_94",
+                "weight": 0.00039344970568310536,
+                "time": 5,
+                "passability": "Both"
+            }
+        ],
+        "Node_94": [
+            {
+                "target": "Node_93",
+                "weight": 0.00039344970568310536,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Node_95",
+                "weight": 0.0002835596972556329,
+                "time": 5,
+                "passability": "Both"
+            }
+        ],
+        "Node_95": [
+            {
+                "target": "Node_94",
+                "weight": 0.0002835596972556329,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Node_96",
+                "weight": 0.0001855537164999868,
+                "time": 5,
+                "passability": "Both"
+            }
+        ],
+        "Node_96": [
+            {
+                "target": "Node_95",
+                "weight": 0.0001855537164999868,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Node_5",
+                "weight": 7.83236092180361e-05,
+                "time": 5,
+                "passability": "Both"
+            }
+        ],
+        "Node_97": [
+            {
+                "target": "Node_1",
+                "weight": 9.893943820355922e-05,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Node_68",
+                "weight": 0.0002685258435552741,
+                "time": 5,
+                "passability": "Both"
+            }
+        ],
+        "Nilgiri-2": [
+            {
+                "target": "Node_13",
+                "weight": 0.00046046371294368026,
+                "time": 5,
+                "passability": "Both"
+            }
+        ],
+        "Node_99": [
+            {
+                "target": "Node_97",
+                "weight": 0.0009560668877971157,
+                "time": 5,
+                "passability": "Both"
+            }
+        ],
+        "Node_100": [
+            {
+                "target": "Node_7",
+                "weight": 0.0001147875681756153,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Node_101",
+                "weight": 0.00044848234587824954,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Node_102",
+                "weight": 8.64520879384971e-05,
+                "time": 5,
+                "passability": "Both"
+            }
+        ],
+        "Node_101": [
+            {
+                "target": "Node_100",
+                "weight": 0.00044848234587824954,
+                "time": 5,
+                "passability": "Both"
+            }
+        ],
+        "Node_102": [
+            {
+                "target": "Node_100",
+                "weight": 8.64520879384971e-05,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Node_103",
+                "weight": 0.00010735228426032235,
+                "time": 5,
+                "passability": "Both"
+            }
+        ],
+        "Node_103": [
+            {
+                "target": "Node_102",
+                "weight": 0.00010735228426032235,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Node_12",
+                "weight": 0.00014241004591733706,
+                "time": 5,
+                "passability": "Both"
+            }
+        ],
+        "Node_104": [
+            {
+                "target": "Node_90",
+                "weight": 0.0004134867993196152,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Node_114",
+                "weight": 0.0006772469662855317,
+                "time": 5,
+                "passability": "Both"
+            }
+        ],
+        "Node_114": [
+            {
+                "target": "Node_104",
+                "weight": 0.0006772469662855317,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Node_47",
+                "weight": 0.0008038059328893023,
+                "time": 5,
+                "passability": "Both"
+            }
+        ],
+        "Node_115": [
+            {
+                "target": "Node_47",
+                "weight": 0.00015367435684556996,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Node_116",
+                "weight": 0.0003573472213982474,
+                "time": 5,
+                "passability": "Both"
+            }
+        ],
+        "Node_116": [
+            {
+                "target": "Node_115",
+                "weight": 0.0003573472213982474,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Node_117",
+                "weight": 0.00038248552858105995,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Faculty_H2",
+                "weight": 0.0004433432763684333,
+                "time": 5,
+                "passability": "Both"
+            }
+        ],
+        "Node_117": [
+            {
+                "target": "Node_116",
+                "weight": 0.00038248552858105995,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Node_118",
+                "weight": 0.0004852481146912129,
+                "time": 5,
+                "passability": "Both"
+            },
+            {
+                "target": "Node_120",
+                "weight": 0.0005136345267068502,
+                "time": 5,
+                "passability": "Both"
+            }
+        ],
+        "Node_118": [
+            {
+                "target": "Node_117",
+                "weight": 0.0004852481146912129,
+                "time": 5,
+                "passability": "Both"
+            }
+        ],
+        "Faculty_H2": [
+            {
+                "target": "Node_116",
+                "weight": 0.0004433432763684333,
+                "time": 5,
+                "passability": "Both"
+            }
+        ],
+        "Node_120": [
+            {
+                "target": "Node_117",
+                "weight": 0.0005136345267068502,
+                "time": 5,
+                "passability": "Both"
+            }
+        ]
+    }
+}

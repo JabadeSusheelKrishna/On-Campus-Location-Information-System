@@ -1,0 +1,1160 @@
+[
+    {
+        "class": "UG1-A",
+        "schedule": {
+            "Monday": [
+                {
+                    "time": "8:30-10:00",
+                    "locations": {
+                        "Bakul_Nivas": 18,
+                        "Kadamb_Mess": 3,
+                        "Himalaya_Block": 65,
+                        "Tantra_canteen": 14
+                    }
+                },
+                {
+                    "time": "10:00-11:30",
+                    "locations": {
+                        "Bakul_Nivas": 18,
+                        "Kadamb_Mess": 28,
+                        "Himalaya_Block": 46,
+                        "Tantra_canteen": 8
+                    }
+                },
+                {
+                    "time": "11:30-1:00",
+                    "locations": {
+                        "Bakul_Nivas": 18,
+                        "Kadamb_Mess": 14,
+                        "Himalaya_Block": 67,
+                        "Tantra_canteen": 1
+                    }
+                },
+                {
+                    "time": "1:00-2:00",
+                    "locations": {
+                        "Bakul_Nivas": 0,
+                        "Kadamb_Mess": 56,
+                        "Himalaya_Block": 0,
+                        "Tantra_canteen": 44
+                    }
+                },
+                {
+                    "time": "2:00-3:30",
+                    "locations": {
+                        "Bakul_Nivas": 20,
+                        "Kadamb_Mess": 12,
+                        "Himalaya_Block": 64,
+                        "Tantra_canteen": 4
+                    }
+                },
+                {
+                    "time": "3:30-5:00",
+                    "locations": {
+                        "Bakul_Nivas": 18,
+                        "Kadamb_Mess": 9,
+                        "Himalaya_Block": 67,
+                        "Tantra_canteen": 6
+                    }
+                },
+                {
+                    "time" : "5:00-12:00",
+                    "locations": {
+                        "Bakul_Nivas" : 100,
+                        "Kadamb_Mess" : 59,
+                        "Himalaya_Block" : 0,
+                        "Tantra_canteen" : 60
+                    }
+                }
+            ],
+            "Tuesday": [
+                {
+                    "time": "8:30-10:00",
+                    "locations": {
+                        "Bakul_Nivas": 24,
+                        "Kadamb_Mess": 24,
+                        "Himalaya_Block": 40,
+                        "Tantra_canteen": 12
+                    }
+                },
+                {
+                    "time": "10:00-11:30",
+                    "locations": {
+                        "Bakul_Nivas": 10,
+                        "Kadamb_Mess": 29,
+                        "Himalaya_Block": 46,
+                        "Tantra_canteen": 15
+                    }
+                },
+                {
+                    "time": "11:30-1:00",
+                    "locations": {
+                        "Bakul_Nivas": 25,
+                        "Kadamb_Mess": 2,
+                        "Himalaya_Block": 64,
+                        "Tantra_canteen": 9
+                    }
+                },
+                {
+                    "time": "1:00-2:00",
+                    "locations": {
+                        "Bakul_Nivas": 5,
+                        "Kadamb_Mess": 55,
+                        "Himalaya_Block": 0,
+                        "Tantra_canteen": 40
+                    }
+                },
+                {
+                    "time": "2:00-3:30",
+                    "locations": {
+                        "Bakul_Nivas": 23,
+                        "Kadamb_Mess": 0,
+                        "Himalaya_Block": 69,
+                        "Tantra_canteen": 8
+                    }
+                },
+                {
+                    "time": "3:30-5:00",
+                    "locations": {
+                        "Bakul_Nivas": 25,
+                        "Kadamb_Mess": 12,
+                        "Himalaya_Block": 53,
+                        "Tantra_canteen": 10
+                    }
+                },
+                {
+                    "time" : "5:00-12:00",
+                    "locations": {
+                        "Bakul_Nivas" : 100,
+                        "Kadamb_Mess" : 59,
+                        "Himalaya_Block" : 0,
+                        "Tantra_canteen" : 60
+                    }
+                }
+            ],
+            "Wednesday": [
+                {
+                    "time": "8:30-10:00",
+                    "locations": {
+                        "Bakul_Nivas": 19,
+                        "Kadamb_Mess": 11,
+                        "Himalaya_Block": 61,
+                        "Tantra_canteen": 9
+                    }
+                },
+                {
+                    "time": "10:00-11:30",
+                    "locations": {
+                        "Bakul_Nivas": 27,
+                        "Kadamb_Mess": 3,
+                        "Himalaya_Block": 57,
+                        "Tantra_canteen": 13
+                    }
+                },
+                {
+                    "time": "11:30-1:00",
+                    "locations": {
+                        "Bakul_Nivas": 19,
+                        "Kadamb_Mess": 0,
+                        "Himalaya_Block": 44,
+                        "Tantra_canteen": 37
+                    }
+                },
+                {
+                    "time": "1:00-2:00",
+                    "locations": {
+                        "Bakul_Nivas": 0,
+                        "Kadamb_Mess": 51,
+                        "Himalaya_Block": 0,
+                        "Tantra_canteen": 49
+                    }
+                },
+                {
+                    "time": "2:00-3:30",
+                    "locations": {
+                        "Bakul_Nivas": 24,
+                        "Kadamb_Mess": 7,
+                        "Himalaya_Block": 57,
+                        "Tantra_canteen": 12
+                    }
+                },
+                {
+                    "time": "3:30-5:00",
+                    "locations": {
+                        "Bakul_Nivas": 20,
+                        "Kadamb_Mess": 21,
+                        "Himalaya_Block": 41,
+                        "Tantra_canteen": 18
+                    }
+                },
+                {
+                    "time" : "5:00-12:00",
+                    "locations": {
+                        "Bakul_Nivas" : 100,
+                        "Kadamb_Mess" : 59,
+                        "Himalaya_Block" : 0,
+                        "Tantra_canteen" : 60
+                    }
+                }
+            ],
+            "Thursday": [
+                {
+                    "time": "8:30-10:00",
+                    "locations": {
+                        "Bakul_Nivas": 20,
+                        "Kadamb_Mess": 38,
+                        "Himalaya_Block": 40,
+                        "Tantra_canteen": 2
+                    }
+                },
+                {
+                    "time": "10:00-11:30",
+                    "locations": {
+                        "Bakul_Nivas": 12,
+                        "Kadamb_Mess": 12,
+                        "Himalaya_Block": 68,
+                        "Tantra_canteen": 8
+                    }
+                },
+                {
+                    "time": "11:30-1:00",
+                    "locations": {
+                        "Bakul_Nivas": 27,
+                        "Kadamb_Mess": 3,
+                        "Himalaya_Block": 67,
+                        "Tantra_canteen": 3
+                    }
+                },
+                {
+                    "time": "1:00-2:00",
+                    "locations": {
+                        "Bakul_Nivas": 8,
+                        "Kadamb_Mess": 48,
+                        "Himalaya_Block": 12,
+                        "Tantra_canteen": 32
+                    }
+                },
+                {
+                    "time": "2:00-3:30",
+                    "locations": {
+                        "Bakul_Nivas": 29,
+                        "Kadamb_Mess": 0,
+                        "Himalaya_Block": 40,
+                        "Tantra_canteen": 31
+                    }
+                },
+                {
+                    "time": "3:30-5:00",
+                    "locations": {
+                        "Bakul_Nivas": 10,
+                        "Kadamb_Mess": 13,
+                        "Himalaya_Block": 56,
+                        "Tantra_canteen": 21
+                    }
+                },
+                {
+                    "time" : "5:00-12:00",
+                    "locations": {
+                        "Bakul_Nivas" : 100,
+                        "Kadamb_Mess" : 59,
+                        "Himalaya_Block" : 0,
+                        "Tantra_canteen" : 60
+                    }
+                }
+            ],
+            "Friday": [
+                {
+                    "time": "8:30-10:00",
+                    "locations": {
+                        "Bakul_Nivas": 17,
+                        "Kadamb_Mess": 6,
+                        "Himalaya_Block": 65,
+                        "Tantra_canteen": 12
+                    }
+                },
+                {
+                    "time": "10:00-11:30",
+                    "locations": {
+                        "Bakul_Nivas": 16,
+                        "Kadamb_Mess": 12,
+                        "Himalaya_Block": 64,
+                        "Tantra_canteen": 8
+                    }
+                },
+                {
+                    "time": "11:30-1:00",
+                    "locations": {
+                        "Bakul_Nivas": 30,
+                        "Kadamb_Mess": 4,
+                        "Himalaya_Block": 65,
+                        "Tantra_canteen": 1
+                    }
+                },
+                {
+                    "time": "1:00-2:00",
+                    "locations": {
+                        "Bakul_Nivas": 2,
+                        "Kadamb_Mess": 41,
+                        "Himalaya_Block": 23,
+                        "Tantra_canteen": 34
+                    }
+                },
+                {
+                    "time": "2:00-3:30",
+                    "locations": {
+                        "Bakul_Nivas": 23,
+                        "Kadamb_Mess": 24,
+                        "Himalaya_Block": 41,
+                        "Tantra_canteen": 12
+                    }
+                },
+                {
+                    "time": "3:30-5:00",
+                    "locations": {
+                        "Bakul_Nivas": 14,
+                        "Kadamb_Mess": 18,
+                        "Himalaya_Block": 49,
+                        "Tantra_canteen": 19
+                    }
+                },
+                {
+                    "time" : "5:00-12:00",
+                    "locations": {
+                        "Bakul_Nivas" : 100,
+                        "Kadamb_Mess" : 59,
+                        "Himalaya_Block" : 0,
+                        "Tantra_canteen" : 60
+                    }
+                }
+            ],
+            "Saturday": [
+                {
+                    "time": "8:30-10:00",
+                    "locations": {
+                        "Bakul_Nivas": 16,
+                        "Kadamb_Mess": 24,
+                        "Himalaya_Block": 56,
+                        "Tantra_canteen": 4
+                    }
+                },
+                {
+                    "time": "10:00-11:30",
+                    "locations": {
+                        "Bakul_Nivas": 25,
+                        "Kadamb_Mess": 21,
+                        "Himalaya_Block": 43,
+                        "Tantra_canteen": 11
+                    }
+                },
+                {
+                    "time": "11:30-1:00",
+                    "locations": {
+                        "Bakul_Nivas": 14,
+                        "Kadamb_Mess": 33,
+                        "Himalaya_Block": 43,
+                        "Tantra_canteen": 10
+                    }
+                },
+                {
+                    "time": "1:00-2:00",
+                    "locations": {
+                        "Bakul_Nivas": 14,
+                        "Kadamb_Mess": 54,
+                        "Himalaya_Block": 0,
+                        "Tantra_canteen": 32
+                    }
+                },
+                {
+                    "time": "2:00-3:30",
+                    "locations": {
+                        "Bakul_Nivas": 19,
+                        "Kadamb_Mess": 13,
+                        "Himalaya_Block": 45,
+                        "Tantra_canteen": 23
+                    }
+                },
+                {
+                    "time": "3:30-5:00",
+                    "locations": {
+                        "Bakul_Nivas": 14,
+                        "Kadamb_Mess": 18,
+                        "Himalaya_Block": 61,
+                        "Tantra_canteen": 7
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "class": "UG1-B",
+        "schedule": {
+            "Monday": [
+                {
+                    "time": "8:30-10:00",
+                    "locations": {
+                        "Bakul_Nivas": 18,
+                        "Kadamb_Mess": 3,
+                        "Himalaya_Block": 65,
+                        "Tantra_canteen": 14
+                    }
+                },
+                {
+                    "time": "10:00-11:30",
+                    "locations": {
+                        "Bakul_Nivas": 18,
+                        "Kadamb_Mess": 28,
+                        "Himalaya_Block": 46,
+                        "Tantra_canteen": 8
+                    }
+                },
+                {
+                    "time": "11:30-1:00",
+                    "locations": {
+                        "Bakul_Nivas": 18,
+                        "Kadamb_Mess": 14,
+                        "Himalaya_Block": 67,
+                        "Tantra_canteen": 1
+                    }
+                },
+                {
+                    "time": "1:00-2:00",
+                    "locations": {
+                        "Bakul_Nivas": 0,
+                        "Kadamb_Mess": 56,
+                        "Himalaya_Block": 0,
+                        "Tantra_canteen": 44
+                    }
+                },
+                {
+                    "time": "2:00-3:30",
+                    "locations": {
+                        "Bakul_Nivas": 20,
+                        "Kadamb_Mess": 12,
+                        "Himalaya_Block": 64,
+                        "Tantra_canteen": 4
+                    }
+                },
+                {
+                    "time": "3:30-5:00",
+                    "locations": {
+                        "Bakul_Nivas": 18,
+                        "Kadamb_Mess": 9,
+                        "Himalaya_Block": 67,
+                        "Tantra_canteen": 6
+                    }
+                },
+                {
+                    "time" : "5:00-12:00",
+                    "locations": {
+                        "Bakul_Nivas" : 100,
+                        "Kadamb_Mess" : 59,
+                        "Himalaya_Block" : 0,
+                        "Tantra_canteen" : 60
+                    }
+                }
+            ],
+            "Tuesday": [
+                {
+                    "time": "8:30-10:00",
+                    "locations": {
+                        "Bakul_Nivas": 24,
+                        "Kadamb_Mess": 24,
+                        "Himalaya_Block": 40,
+                        "Tantra_canteen": 12
+                    }
+                },
+                {
+                    "time": "10:00-11:30",
+                    "locations": {
+                        "Bakul_Nivas": 10,
+                        "Kadamb_Mess": 29,
+                        "Himalaya_Block": 46,
+                        "Tantra_canteen": 15
+                    }
+                },
+                {
+                    "time": "11:30-1:00",
+                    "locations": {
+                        "Bakul_Nivas": 25,
+                        "Kadamb_Mess": 2,
+                        "Himalaya_Block": 64,
+                        "Tantra_canteen": 9
+                    }
+                },
+                {
+                    "time": "1:00-2:00",
+                    "locations": {
+                        "Bakul_Nivas": 5,
+                        "Kadamb_Mess": 55,
+                        "Himalaya_Block": 0,
+                        "Tantra_canteen": 40
+                    }
+                },
+                {
+                    "time": "2:00-3:30",
+                    "locations": {
+                        "Bakul_Nivas": 23,
+                        "Kadamb_Mess": 0,
+                        "Himalaya_Block": 69,
+                        "Tantra_canteen": 8
+                    }
+                },
+                {
+                    "time": "3:30-5:00",
+                    "locations": {
+                        "Bakul_Nivas": 25,
+                        "Kadamb_Mess": 12,
+                        "Himalaya_Block": 53,
+                        "Tantra_canteen": 10
+                    }
+                },
+                {
+                    "time" : "5:00-12:00",
+                    "locations": {
+                        "Bakul_Nivas" : 100,
+                        "Kadamb_Mess" : 59,
+                        "Himalaya_Block" : 0,
+                        "Tantra_canteen" : 60
+                    }
+                }
+            ],
+            "Wednesday": [
+                {
+                    "time": "8:30-10:00",
+                    "locations": {
+                        "Bakul_Nivas": 19,
+                        "Kadamb_Mess": 11,
+                        "Himalaya_Block": 61,
+                        "Tantra_canteen": 9
+                    }
+                },
+                {
+                    "time": "10:00-11:30",
+                    "locations": {
+                        "Bakul_Nivas": 27,
+                        "Kadamb_Mess": 3,
+                        "Himalaya_Block": 57,
+                        "Tantra_canteen": 13
+                    }
+                },
+                {
+                    "time": "11:30-1:00",
+                    "locations": {
+                        "Bakul_Nivas": 19,
+                        "Kadamb_Mess": 0,
+                        "Himalaya_Block": 44,
+                        "Tantra_canteen": 37
+                    }
+                },
+                {
+                    "time": "1:00-2:00",
+                    "locations": {
+                        "Bakul_Nivas": 0,
+                        "Kadamb_Mess": 51,
+                        "Himalaya_Block": 0,
+                        "Tantra_canteen": 49
+                    }
+                },
+                {
+                    "time": "2:00-3:30",
+                    "locations": {
+                        "Bakul_Nivas": 24,
+                        "Kadamb_Mess": 7,
+                        "Himalaya_Block": 57,
+                        "Tantra_canteen": 12
+                    }
+                },
+                {
+                    "time": "3:30-5:00",
+                    "locations": {
+                        "Bakul_Nivas": 20,
+                        "Kadamb_Mess": 21,
+                        "Himalaya_Block": 41,
+                        "Tantra_canteen": 18
+                    }
+                },
+                {
+                    "time" : "5:00-12:00",
+                    "locations": {
+                        "Bakul_Nivas" : 100,
+                        "Kadamb_Mess" : 59,
+                        "Himalaya_Block" : 0,
+                        "Tantra_canteen" : 60
+                    }
+                }
+            ],
+            "Thursday": [
+                {
+                    "time": "8:30-10:00",
+                    "locations": {
+                        "Bakul_Nivas": 20,
+                        "Kadamb_Mess": 38,
+                        "Himalaya_Block": 40,
+                        "Tantra_canteen": 2
+                    }
+                },
+                {
+                    "time": "10:00-11:30",
+                    "locations": {
+                        "Bakul_Nivas": 12,
+                        "Kadamb_Mess": 12,
+                        "Himalaya_Block": 68,
+                        "Tantra_canteen": 8
+                    }
+                },
+                {
+                    "time": "11:30-1:00",
+                    "locations": {
+                        "Bakul_Nivas": 27,
+                        "Kadamb_Mess": 3,
+                        "Himalaya_Block": 67,
+                        "Tantra_canteen": 3
+                    }
+                },
+                {
+                    "time": "1:00-2:00",
+                    "locations": {
+                        "Bakul_Nivas": 8,
+                        "Kadamb_Mess": 48,
+                        "Himalaya_Block": 12,
+                        "Tantra_canteen": 32
+                    }
+                },
+                {
+                    "time": "2:00-3:30",
+                    "locations": {
+                        "Bakul_Nivas": 29,
+                        "Kadamb_Mess": 0,
+                        "Himalaya_Block": 40,
+                        "Tantra_canteen": 31
+                    }
+                },
+                {
+                    "time": "3:30-5:00",
+                    "locations": {
+                        "Bakul_Nivas": 10,
+                        "Kadamb_Mess": 13,
+                        "Himalaya_Block": 56,
+                        "Tantra_canteen": 21
+                    }
+                },
+                {
+                    "time" : "5:00-12:00",
+                    "locations": {
+                        "Bakul_Nivas" : 100,
+                        "Kadamb_Mess" : 59,
+                        "Himalaya_Block" : 0,
+                        "Tantra_canteen" : 60
+                    }
+                }
+            ],
+            "Friday": [
+                {
+                    "time": "8:30-10:00",
+                    "locations": {
+                        "Bakul_Nivas": 17,
+                        "Kadamb_Mess": 6,
+                        "Himalaya_Block": 65,
+                        "Tantra_canteen": 12
+                    }
+                },
+                {
+                    "time": "10:00-11:30",
+                    "locations": {
+                        "Bakul_Nivas": 16,
+                        "Kadamb_Mess": 12,
+                        "Himalaya_Block": 64,
+                        "Tantra_canteen": 8
+                    }
+                },
+                {
+                    "time": "11:30-1:00",
+                    "locations": {
+                        "Bakul_Nivas": 30,
+                        "Kadamb_Mess": 4,
+                        "Himalaya_Block": 65,
+                        "Tantra_canteen": 1
+                    }
+                },
+                {
+                    "time": "1:00-2:00",
+                    "locations": {
+                        "Bakul_Nivas": 2,
+                        "Kadamb_Mess": 41,
+                        "Himalaya_Block": 23,
+                        "Tantra_canteen": 34
+                    }
+                },
+                {
+                    "time": "2:00-3:30",
+                    "locations": {
+                        "Bakul_Nivas": 23,
+                        "Kadamb_Mess": 24,
+                        "Himalaya_Block": 41,
+                        "Tantra_canteen": 12
+                    }
+                },
+                {
+                    "time": "3:30-5:00",
+                    "locations": {
+                        "Bakul_Nivas": 14,
+                        "Kadamb_Mess": 18,
+                        "Himalaya_Block": 49,
+                        "Tantra_canteen": 19
+                    }
+                },
+                {
+                    "time" : "5:00-12:00",
+                    "locations": {
+                        "Bakul_Nivas" : 100,
+                        "Kadamb_Mess" : 59,
+                        "Himalaya_Block" : 0,
+                        "Tantra_canteen" : 60
+                    }
+                }
+            ],
+            "Saturday": [
+                {
+                    "time": "8:30-10:00",
+                    "locations": {
+                        "Bakul_Nivas": 16,
+                        "Kadamb_Mess": 24,
+                        "Himalaya_Block": 56,
+                        "Tantra_canteen": 4
+                    }
+                },
+                {
+                    "time": "10:00-11:30",
+                    "locations": {
+                        "Bakul_Nivas": 25,
+                        "Kadamb_Mess": 21,
+                        "Himalaya_Block": 43,
+                        "Tantra_canteen": 11
+                    }
+                },
+                {
+                    "time": "11:30-1:00",
+                    "locations": {
+                        "Bakul_Nivas": 14,
+                        "Kadamb_Mess": 33,
+                        "Himalaya_Block": 43,
+                        "Tantra_canteen": 10
+                    }
+                },
+                {
+                    "time": "1:00-2:00",
+                    "locations": {
+                        "Bakul_Nivas": 14,
+                        "Kadamb_Mess": 54,
+                        "Himalaya_Block": 0,
+                        "Tantra_canteen": 32
+                    }
+                },
+                {
+                    "time": "2:00-3:30",
+                    "locations": {
+                        "Bakul_Nivas": 19,
+                        "Kadamb_Mess": 13,
+                        "Himalaya_Block": 45,
+                        "Tantra_canteen": 23
+                    }
+                },
+                {
+                    "time": "3:30-5:00",
+                    "locations": {
+                        "Bakul_Nivas": 14,
+                        "Kadamb_Mess": 18,
+                        "Himalaya_Block": 61,
+                        "Tantra_canteen": 7
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "class": "UG2",
+        "schedule": {
+            "Monday": [
+                {
+                    "time": "8:30-10:00",
+                    "locations": {
+                        "Bakul_Nivas": 18,
+                        "Kadamb_Mess": 3,
+                        "Himalaya_Block": 65,
+                        "Tantra_canteen": 14
+                    }
+                },
+                {
+                    "time": "10:00-11:30",
+                    "locations": {
+                        "Bakul_Nivas": 18,
+                        "Kadamb_Mess": 28,
+                        "Himalaya_Block": 46,
+                        "Tantra_canteen": 8
+                    }
+                },
+                {
+                    "time": "11:30-1:00",
+                    "locations": {
+                        "Bakul_Nivas": 18,
+                        "Kadamb_Mess": 14,
+                        "Himalaya_Block": 67,
+                        "Tantra_canteen": 1
+                    }
+                },
+                {
+                    "time": "1:00-2:00",
+                    "locations": {
+                        "Bakul_Nivas": 0,
+                        "Kadamb_Mess": 56,
+                        "Himalaya_Block": 0,
+                        "Tantra_canteen": 44
+                    }
+                },
+                {
+                    "time": "2:00-3:30",
+                    "locations": {
+                        "Bakul_Nivas": 20,
+                        "Kadamb_Mess": 12,
+                        "Himalaya_Block": 64,
+                        "Tantra_canteen": 4
+                    }
+                },
+                {
+                    "time": "3:30-5:00",
+                    "locations": {
+                        "Bakul_Nivas": 18,
+                        "Kadamb_Mess": 9,
+                        "Himalaya_Block": 67,
+                        "Tantra_canteen": 6
+                    }
+                },
+                {
+                    "time" : "5:00-12:00",
+                    "locations": {
+                        "Bakul_Nivas" : 100,
+                        "Kadamb_Mess" : 59,
+                        "Himalaya_Block" : 0,
+                        "Tantra_canteen" : 60
+                    }
+                }
+            ],
+            "Tuesday": [
+                {
+                    "time": "8:30-10:00",
+                    "locations": {
+                        "Bakul_Nivas": 24,
+                        "Kadamb_Mess": 24,
+                        "Himalaya_Block": 40,
+                        "Tantra_canteen": 12
+                    }
+                },
+                {
+                    "time": "10:00-11:30",
+                    "locations": {
+                        "Bakul_Nivas": 10,
+                        "Kadamb_Mess": 29,
+                        "Himalaya_Block": 46,
+                        "Tantra_canteen": 15
+                    }
+                },
+                {
+                    "time": "11:30-1:00",
+                    "locations": {
+                        "Bakul_Nivas": 25,
+                        "Kadamb_Mess": 2,
+                        "Himalaya_Block": 64,
+                        "Tantra_canteen": 9
+                    }
+                },
+                {
+                    "time": "1:00-2:00",
+                    "locations": {
+                        "Bakul_Nivas": 5,
+                        "Kadamb_Mess": 55,
+                        "Himalaya_Block": 0,
+                        "Tantra_canteen": 40
+                    }
+                },
+                {
+                    "time": "2:00-3:30",
+                    "locations": {
+                        "Bakul_Nivas": 23,
+                        "Kadamb_Mess": 0,
+                        "Himalaya_Block": 69,
+                        "Tantra_canteen": 8
+                    }
+                },
+                {
+                    "time": "3:30-5:00",
+                    "locations": {
+                        "Bakul_Nivas": 25,
+                        "Kadamb_Mess": 12,
+                        "Himalaya_Block": 53,
+                        "Tantra_canteen": 10
+                    }
+                },
+                {
+                    "time" : "5:00-12:00",
+                    "locations": {
+                        "Bakul_Nivas" : 100,
+                        "Kadamb_Mess" : 59,
+                        "Himalaya_Block" : 0,
+                        "Tantra_canteen" : 60
+                    }
+                }
+            ],
+            "Wednesday": [
+                {
+                    "time": "8:30-10:00",
+                    "locations": {
+                        "Bakul_Nivas": 19,
+                        "Kadamb_Mess": 11,
+                        "Himalaya_Block": 61,
+                        "Tantra_canteen": 9
+                    }
+                },
+                {
+                    "time": "10:00-11:30",
+                    "locations": {
+                        "Bakul_Nivas": 27,
+                        "Kadamb_Mess": 3,
+                        "Himalaya_Block": 57,
+                        "Tantra_canteen": 13
+                    }
+                },
+                {
+                    "time": "11:30-1:00",
+                    "locations": {
+                        "Bakul_Nivas": 19,
+                        "Kadamb_Mess": 0,
+                        "Himalaya_Block": 44,
+                        "Tantra_canteen": 37
+                    }
+                },
+                {
+                    "time": "1:00-2:00",
+                    "locations": {
+                        "Bakul_Nivas": 0,
+                        "Kadamb_Mess": 51,
+                        "Himalaya_Block": 0,
+                        "Tantra_canteen": 49
+                    }
+                },
+                {
+                    "time": "2:00-3:30",
+                    "locations": {
+                        "Bakul_Nivas": 24,
+                        "Kadamb_Mess": 7,
+                        "Himalaya_Block": 57,
+                        "Tantra_canteen": 12
+                    }
+                },
+                {
+                    "time": "3:30-5:00",
+                    "locations": {
+                        "Bakul_Nivas": 20,
+                        "Kadamb_Mess": 21,
+                        "Himalaya_Block": 41,
+                        "Tantra_canteen": 18
+                    }
+                },
+                {
+                    "time" : "5:00-12:00",
+                    "locations": {
+                        "Bakul_Nivas" : 100,
+                        "Kadamb_Mess" : 59,
+                        "Himalaya_Block" : 0,
+                        "Tantra_canteen" : 60
+                    }
+                }
+            ],
+            "Thursday": [
+                {
+                    "time": "8:30-10:00",
+                    "locations": {
+                        "Bakul_Nivas": 20,
+                        "Kadamb_Mess": 38,
+                        "Himalaya_Block": 40,
+                        "Tantra_canteen": 2
+                    }
+                },
+                {
+                    "time": "10:00-11:30",
+                    "locations": {
+                        "Bakul_Nivas": 12,
+                        "Kadamb_Mess": 12,
+                        "Himalaya_Block": 68,
+                        "Tantra_canteen": 8
+                    }
+                },
+                {
+                    "time": "11:30-1:00",
+                    "locations": {
+                        "Bakul_Nivas": 27,
+                        "Kadamb_Mess": 3,
+                        "Himalaya_Block": 67,
+                        "Tantra_canteen": 3
+                    }
+                },
+                {
+                    "time": "1:00-2:00",
+                    "locations": {
+                        "Bakul_Nivas": 8,
+                        "Kadamb_Mess": 48,
+                        "Himalaya_Block": 12,
+                        "Tantra_canteen": 32
+                    }
+                },
+                {
+                    "time": "2:00-3:30",
+                    "locations": {
+                        "Bakul_Nivas": 29,
+                        "Kadamb_Mess": 0,
+                        "Himalaya_Block": 40,
+                        "Tantra_canteen": 31
+                    }
+                },
+                {
+                    "time": "3:30-5:00",
+                    "locations": {
+                        "Bakul_Nivas": 10,
+                        "Kadamb_Mess": 13,
+                        "Himalaya_Block": 56,
+                        "Tantra_canteen": 21
+                    }
+                },
+                {
+                    "time" : "5:00-12:00",
+                    "locations": {
+                        "Bakul_Nivas" : 100,
+                        "Kadamb_Mess" : 59,
+                        "Himalaya_Block" : 0,
+                        "Tantra_canteen" : 60
+                    }
+                }
+            ],
+            "Friday": [
+                {
+                    "time": "8:30-10:00",
+                    "locations": {
+                        "Bakul_Nivas": 17,
+                        "Kadamb_Mess": 6,
+                        "Himalaya_Block": 65,
+                        "Tantra_canteen": 12
+                    }
+                },
+                {
+                    "time": "10:00-11:30",
+                    "locations": {
+                        "Bakul_Nivas": 16,
+                        "Kadamb_Mess": 12,
+                        "Himalaya_Block": 64,
+                        "Tantra_canteen": 8
+                    }
+                },
+                {
+                    "time": "11:30-1:00",
+                    "locations": {
+                        "Bakul_Nivas": 30,
+                        "Kadamb_Mess": 4,
+                        "Himalaya_Block": 65,
+                        "Tantra_canteen": 1
+                    }
+                },
+                {
+                    "time": "1:00-2:00",
+                    "locations": {
+                        "Bakul_Nivas": 2,
+                        "Kadamb_Mess": 41,
+                        "Himalaya_Block": 23,
+                        "Tantra_canteen": 34
+                    }
+                },
+                {
+                    "time": "2:00-3:30",
+                    "locations": {
+                        "Bakul_Nivas": 23,
+                        "Kadamb_Mess": 24,
+                        "Himalaya_Block": 41,
+                        "Tantra_canteen": 12
+                    }
+                },
+                {
+                    "time": "3:30-5:00",
+                    "locations": {
+                        "Bakul_Nivas": 14,
+                        "Kadamb_Mess": 18,
+                        "Himalaya_Block": 49,
+                        "Tantra_canteen": 19
+                    }
+                },
+                {
+                    "time" : "5:00-12:00",
+                    "locations": {
+                        "Bakul_Nivas" : 100,
+                        "Kadamb_Mess" : 59,
+                        "Himalaya_Block" : 0,
+                        "Tantra_canteen" : 60
+                    }
+                }
+            ],
+            "Saturday": [
+                {
+                    "time": "8:30-10:00",
+                    "locations": {
+                        "Bakul_Nivas": 16,
+                        "Kadamb_Mess": 24,
+                        "Himalaya_Block": 56,
+                        "Tantra_canteen": 4
+                    }
+                },
+                {
+                    "time": "10:00-11:30",
+                    "locations": {
+                        "Bakul_Nivas": 25,
+                        "Kadamb_Mess": 21,
+                        "Himalaya_Block": 43,
+                        "Tantra_canteen": 11
+                    }
+                },
+                {
+                    "time": "11:30-1:00",
+                    "locations": {
+                        "Bakul_Nivas": 14,
+                        "Kadamb_Mess": 33,
+                        "Himalaya_Block": 43,
+                        "Tantra_canteen": 10
+                    }
+                },
+                {
+                    "time": "1:00-2:00",
+                    "locations": {
+                        "Bakul_Nivas": 14,
+                        "Kadamb_Mess": 54,
+                        "Himalaya_Block": 0,
+                        "Tantra_canteen": 32
+                    }
+                },
+                {
+                    "time": "2:00-3:30",
+                    "locations": {
+                        "Bakul_Nivas": 19,
+                        "Kadamb_Mess": 13,
+                        "Himalaya_Block": 45,
+                        "Tantra_canteen": 23
+                    }
+                },
+                {
+                    "time": "3:30-5:00",
+                    "locations": {
+                        "Bakul_Nivas": 14,
+                        "Kadamb_Mess": 18,
+                        "Himalaya_Block": 61,
+                        "Tantra_canteen": 7
+                    }
+                }
+            ]
+        }
+    }
+]

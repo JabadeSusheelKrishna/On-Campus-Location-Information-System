@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Campus Map Routing</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <h1>Campus Map Routing</h1>
+  </header>
+
+  <main class="main-container">
+    <!-- Inputs Section -->
+    <section class="form-section">
+      <div class="form-group">
+        <label for="startNode">From Node ID:</label>
+        <input type="text" id="startNode" placeholder="e.g., Node_0">
+        <button onclick="fetchMyLocation()" class="btn btn-primary">Fetch My Location</button>
+      </div>
+
+      <div class="form-group">
+        <label for="endNode">To Node ID:</label>
+        <input type="text" id="endNode" placeholder="e.g., Node_2">
+      </div>
+
+      <div class="form-group">
+        <label for="arcTypeDropdown">Architecture Type:</label>
+        <select id="arcTypeDropdown" onchange="populateArchitectureDropdown()">
+          <option value="">Select Type</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="architectureDropdown">Architecture:</label>
+        <select id="architectureDropdown" onchange="setEndNode()">
+          <option value="">Select Architecture</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="transportationDropdown">Transportation:</label>
+        <select id="transportationDropdown" onchange="updateGraphData()">
+          <option value="walk">Walk</option>
+          <option value="vehicle">Vehicle</option>
+        </select>
+      </div>
+
+      <button onclick="findRoute()" class="btn btn-success">Find Route</button>
+    </section>
+
+    <!-- Map Section -->
+    <section id="map"></section>
+  </main>
+
+  <section class="info-section">
+    <h2 id="distance">Distance: N/A</h2>
+  </section>
+
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="https://unpkg.com/@turf/turf/turf.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>

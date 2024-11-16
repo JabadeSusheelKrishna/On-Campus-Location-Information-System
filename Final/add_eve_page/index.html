@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class Schedule and Event Heatmap</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <style>
+        /* General body styles */
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7fc;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            /* margin-top: 20px; */
+            /* background-color: #4A90E2; */
+        }
+
+        /* Layout container */
+        .container {
+            display: flex;
+            height: 90vh;
+        }
+
+        /* Left panel styles */
+        .left-panel {
+            width: 35%;
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            overflow-y: auto;
+        }
+
+        .left-panel h2 {
+            color: #4A90E2;
+            margin-bottom: 15px;
+        }
+
+        .form-container,
+        .controls {
+            margin-bottom: 20px;
+        }
+
+        .form-container input,
+        .form-container textarea,
+        .form-container select,
+        .form-container button,
+        .controls select,
+        .controls input,
+        .controls button {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border-radius: 6px;
+            border: 1px solid #ddd;
+            font-size: 1rem;
+            box-sizing: border-box;
+        }
+
+        .form-container button,
+        .controls button {
+            background-color: #4A90E2;
+            color: white;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .form-container button:hover,
+        .controls button:hover {
+            background-color: #357ABD;
+        }
+
+        /* Map styles */
+        #map {
+            flex-grow: 1;
+            height: 100%;
+        }
+
+        /* Responsive design */
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+            }
+
+            .left-panel {
+                width: 100%;
+                height: auto;
+            }
+
+            #map {
+                height: 300px;
+                margin-top: 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Class Schedule and Event Heatmap</h1>
+    <div class="container">
+        <!-- Left panel for form and heatmap controls -->
+        <div class="left-panel">
+            <!-- Form for adding event details -->
+            <div class="form-container">
+                <h2>Add an Event</h2>
+                <form id="eventForm">
+                    <label for="eventName">Event Name:</label>
+                    <input type="text" id="eventName" required>
+
+                    <label for="eventDetails">Event Details:</label>
+                    <textarea id="eventDetails" rows="3" required></textarea>
+
+                    <label for="eventLocation">Event Location:</label>
+                    <input type="text" id="eventLocation" required>
+
+                    <label for="eventDate">Event Date:</label>
+                    <input type="date" id="eventDate" required>
+
+                    <label for="eventTime">Event Time:</label>
+                    <input type="time" id="eventTime" required>
+
+                    <label for="eventImage">Event Image URL:</label>
+                    <input type="text" id="eventImage" required>
+
+                    <button type="submit">Add Event</button>
+                </form>
+            </div>
+
+            <!-- Heatmap controls -->
+            <div class="controls">
+                <h2>Heatmap Controls</h2>
+                <label for="day">Select Day:</label>
+                <select id="day">
+                    <option value="Monday">Monday</option>
+                    <option value="Tuesday">Tuesday</option>
+                    <option value="Wednesday">Wednesday</option>
+                    <option value="Thursday">Thursday</option>
+                    <option value="Friday">Friday</option>
+                </select>
+
+                <label for="time">Select Time:</label>
+                <input type="time" id="time">
+
+                <button id="heatmapSubmit">Show Heatmap</button>
+            </div>
+        </div>
+
+        <!-- Map container -->
+        <div id="map"></div>
+    </div>
+
+    <script>
+        const map = L.map('map').setView([17.445, 78.349], 16);
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 19 }).addTo(map);
+
+        let locations = {};
+        fetch('Builds.geojson')
+            .then(response => response.json())
+            .then(data => {
+                data.features.forEach(feature => {
+                    const name = feature.properties.name;
+                    const coords = feature.geometry.coordinates;
+                    locations[name] = { lat: coords[1], lng: coords[0] };
+                });
+            });
+
+        let heatmapData = [];
+        fetch('heatmap.json')
+            .then(response => response.json())
+            .then(data => heatmapData = data);
+
+        const addCircles = (heatmapData, day, time) => {
+            map.eachLayer(layer => {
+                if (layer instanceof L.Circle) map.removeLayer(layer);
+            });
+
+            const locationData = {};
+            heatmapData.forEach(entry => {
+                const schedule = entry.schedule[day];
+                if (!schedule) return;
+
+                schedule.forEach(slot => {
+                    const [start, end] = slot.time.split('-').map(t => t.trim());
+                    if (time >= start && time <= end) {
+                        for (const [location, population] of Object.entries(slot.locations)) {
+                            if (!locationData[location]) {
+                                locationData[location] = { total: 0, classes: {} };
+                            }
+                            locationData[location].total += population;
+                            locationData[location].classes[entry.class] = (locationData[location].classes[entry.class] || 0) + population;
+                        }
+                    }
+                });
+            });
+
+            const populations = Object.values(locationData).map(d => d.total);
+            const thresholds = getQuantiles(populations, 3);
+            const colors = ['green', 'orange', 'red'];
+
+            for (const [location, data] of Object.entries(locationData)) {
+                const color = getColor(data.total, thresholds, colors);
+                if (locations[location]) {
+                    L.circle(locations[location], {
+                        color,
+                        radius: 40 + data.total / 10
+                    }).addTo(map)
+                        .bindPopup(`
+                            <strong>${location}</strong><br>
+                            Total Students: ${data.total}<br>
+                            ${Object.entries(data.classes).map(([cls, count]) => `${cls}: ${count} students`).join('<br>')}
+                        `);
+                }
+            }
+        };
+
+        const getQuantiles = (values, numClasses) => {
+            values.sort((a, b) => a - b);
+            const quantiles = [];
+            for (let i = 0; i <= numClasses; i++) {
+                const index = Math.floor((i / numClasses) * (values.length - 1));
+                quantiles.push(values[index]);
+            }
+            return quantiles;
+        };
+
+        const getColor = (value, thresholds, colors) => {
+            for (let i = 0; i < thresholds.length - 1; i++) {
+                if (value >= thresholds[i] && value <= thresholds[i + 1]) return colors[i];
+            }
+            return colors[colors.length - 1];
+        };
+
+        document.getElementById('heatmapSubmit').addEventListener('click', () => {
+            const day = document.getElementById('day').value;
+            const time = document.getElementById('time').value;
+            if (day && time) addCircles(heatmapData, day, time);
+            else alert('Please select a day and time!');
+        });
+
+        document.getElementById('eventForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const event = {
+                name: document.getElementById('eventName').value,
+                details: document.getElementById('eventDetails').value,
+                location: document.getElementById('eventLocation').value,
+                date: document.getElementById('eventDate').value,
+                time: document.getElementById('eventTime').value,
+                image: document.getElementById('eventImage').value,  // Include the image URL
+            };
+
+            const response = await fetch('http://localhost:3200/events', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(event),
+            });
+
+            if (response.ok) alert('Event added successfully!');
+            else alert('Failed to add event!');
+        });
+    </script>
+</body>
+
+</html>
