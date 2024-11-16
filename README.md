@@ -6,7 +6,9 @@
 >
 ### Using Docker
 
-```sudo docker pull doraemonpro/on-campus-location-information-system```
+```
+sudo docker pull doraemonpro/on-campus-location-information-system
+```
 
 ### Updates :
 > - Added custom tiling of IIIT Campus
