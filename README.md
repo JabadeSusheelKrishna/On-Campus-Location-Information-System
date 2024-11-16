@@ -9,6 +9,9 @@
 ```
 sudo docker pull doraemonpro/on-campus-location-information-system
 ```
+```
+sudo docker run -p 8000:8000 -p 3200:3200 my-python-servers
+```
 
 ### Updates :
 > - Added custom tiling of IIIT Campus
