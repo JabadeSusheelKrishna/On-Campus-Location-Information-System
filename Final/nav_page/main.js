@@ -125,6 +125,7 @@ function get_coords_from_graph(Nodes_path, graph_data) {
   return coordinates;
 }
 
+
 // Route Finder
 function findRoute() {
   const startNode = document.getElementById("startNode").value;
@@ -341,3 +342,29 @@ function setEndNode() {
   const selectedArchitecture = document.getElementById("architectureDropdown").value;
   document.getElementById("endNode").value = selectedArchitecture;
 }
+
+
+
+async function loadNodes() {
+  try {
+      const response = await fetch('graphs.json');
+      const data = await response.json();
+
+      // Populate the datalist with valid node IDs
+      const datalist = document.getElementById('nodeList');
+      datalist.innerHTML = ''; // Clear any existing options
+
+      for (const nodeId in data.nodes) {
+          // Only include node IDs that don't match the pattern "Node_<number>"
+          if (!/^Node_\d+$/.test(nodeId)) {
+              const option = document.createElement('option');
+              option.value = nodeId;
+              datalist.appendChild(option);
+          }
+      }
+  } catch (error) {
+      console.error("Error loading nodes:", error);
+  }
+}
+// Call loadNodes when the page loads
+document.addEventListener('DOMContentLoaded', loadNodes);
