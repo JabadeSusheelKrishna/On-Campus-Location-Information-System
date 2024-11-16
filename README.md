@@ -3,6 +3,10 @@
 ### How to Run The Webpage ?
 > - Just open `index.html` with live server
 > - Now access the webpage at your `localhost:5500`
+>
+### Using Docker
+
+```sudo docker pull doraemonpro/on-campus-location-information-system```
 
 ### Updates :
 > - Added custom tiling of IIIT Campus
