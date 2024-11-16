@@ -31,5 +31,7 @@ sudo docker pull doraemonpro/on-campus-location-information-system
 > - Dr. K S Rajan
 
 ### Documents :
-> - PPT
+> - Mid-Presentation
 > -  https://www.canva.com/design/DAGVucpfhlg/dKfKHV0URcvuZo01qiRW4A/edit
+> -  Final-Presentation
+> -  https://www.canva.com/design/DAGWm3QvVMU/hK3MbDqnWd9S7JEm9Rj32Q/edit?utm_content=DAGWm3QvVMU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
